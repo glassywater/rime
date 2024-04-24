@@ -1,0 +1,420 @@
+Log file created at: 2024/04/24 23:09:23
+Running on machine: LAPTOP-SC8L10AH
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240424 23:09:23.982220 12812 core_module.cc:20] registering core components.
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: config_builder
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: config
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: schema
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: user_config
+I20240424 23:09:23.984172 12812 dict_module.cc:25] registering components from module 'dict'.
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: tabledb
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: stabledb
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: plain_userdb
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: userdb
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: corrector
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: dictionary
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: reverse_lookup_dictionary
+I20240424 23:09:23.984172 12812 registry.cc:14] registering component: user_dictionary
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: userdb_recovery_task
+I20240424 23:09:23.985150 12812 gears_module.cc:42] registering components from module 'gears'.
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: ascii_composer
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: chord_composer
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: express_editor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: fluid_editor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: fluency_editor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: key_binder
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: navigator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: punctuator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: recognizer
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: selector
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: speller
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: shape_processor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: abc_segmentor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: affix_segmentor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: ascii_segmentor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: matcher
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: punct_segmentor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: fallback_segmentor
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: echo_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: punct_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: table_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: script_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: r10n_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: reverse_lookup_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: schema_list_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: switch_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: history_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: simplifier
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: uniquifier
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: charset_filter
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: cjk_minifier
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: reverse_lookup_filter
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: single_char_filter
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: shape_formatter
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: codepoint_translator
+I20240424 23:09:23.985150 12812 registry.cc:14] registering component: charset_filter
+W20240424 23:09:23.985150 12812 registry.cc:16] replacing previously registered component: charset_filter
+I20240424 23:09:23.986126 12812 modules.cc:94] registering components from module 'lua'.
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: lua_translator
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: lua_filter
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: lua_segmentor
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: lua_processor
+I20240424 23:09:23.994910 12812 grammar_module.cc:15] registering components from module 'grammar'.
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: grammar
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: predictor
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: predict_translator
+I20240424 23:09:23.994910 12812 levers_module.cc:22] registering components from module 'levers'.
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: detect_modifications
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: installation_update
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: workspace_update
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: schema_update
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: config_file_update
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: prebuild_all_schemas
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: user_dict_upgrade
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: cleanup_trash
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: user_dict_sync
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: backup_config_files
+I20240424 23:09:23.994910 12812 registry.cc:14] registering component: clean_old_log_files
+I20240424 23:09:23.994910 12812 deployment_tasks.cc:85] updating rime installation info.
+I20240424 23:09:23.994910 12812 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\installation.yaml"'.
+I20240424 23:09:23.994910 12812 deployment_tasks.cc:103] installation info exists. installation id: Kyecox
+I20240424 23:09:23.994910 12812 deployment_tasks.cc:114] sync dir: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\sync"
+I20240424 23:09:23.994910 12812 deployment_tasks.cc:116] previous distribution: Weasel
+I20240424 23:09:23.994910 12812 deployment_tasks.cc:119] previous distribution version: 0.15.1.0
+I20240424 23:09:23.994910 12812 deployment_tasks.cc:122] previous Rime version: 1.9.0
+I20240424 23:09:24.009550 12812 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:24.009550 12812 deployment_tasks.cc:78] modifications detected. workspace needs update.
+I20240424 23:09:24.009550 12812 rime_api.cc:106] changes detected; starting maintenance.
+I20240424 23:09:24.009550 12812 deployer.cc:118] starting work thread for 3 tasks.
+I20240424 23:09:24.010527 12812 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\weasel.yaml"'.
+I20240424 23:09:24.010527 35532 deployer.cc:79] running deployment tasks:
+I20240424 23:09:24.010527 35532 deployment_tasks.cc:165] updating workspace.
+I20240424 23:09:24.010527 35532 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\default.yaml"'.
+I20240424 23:09:24.011502 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.yaml"'.
+I20240424 23:09:24.015404 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\default.yaml"'.
+I20240424 23:09:24.023212 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\default.yaml"'.
+I20240424 23:09:24.025164 35532 deployment_tasks.cc:188] updating schemas.
+I20240424 23:09:24.025164 35532 deployment_tasks.cc:197] schema: rime_ice
+I20240424 23:09:24.025164 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.schema.yaml"'.
+I20240424 23:09:24.028092 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:09:24.048588 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:09:24.068109 35532 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:09:24.069084 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"
+I20240424 23:09:24.211211 28468 deployment_tasks.cc:85] updating rime installation info.
+I20240424 23:09:24.212188 28468 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\installation.yaml"'.
+I20240424 23:09:24.212188 28468 deployment_tasks.cc:103] installation info exists. installation id: Kyecox
+I20240424 23:09:24.212188 28468 deployment_tasks.cc:114] sync dir: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\sync"
+I20240424 23:09:24.212188 28468 deployment_tasks.cc:116] previous distribution: Weasel
+I20240424 23:09:24.212188 28468 deployment_tasks.cc:119] previous distribution version: 0.15.1.0
+I20240424 23:09:24.212188 28468 deployment_tasks.cc:122] previous Rime version: 1.9.0
+I20240424 23:09:24.225852 28468 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:24.226827 28468 deployment_tasks.cc:78] modifications detected. workspace needs update.
+I20240424 23:09:24.226827 28468 rime_api.cc:106] changes detected; starting maintenance.
+W20240424 23:09:24.226827 28468 deployer.cc:107] a work thread is already running.
+I20240424 23:09:24.226827 28468 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\weasel.yaml"'.
+I20240424 23:09:24.528890 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:09:24.541579 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.prism.bin"
+I20240424 23:09:24.541579 35532 prism.cc:106] found double array image of size 2304.
+I20240424 23:09:24.541579 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:09:24.541579 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml" (1220211530)
+I20240424 23:09:24.541579 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:09:24.541579 35532 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:09:24.543531 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:09:24.566229 35532 deployment_tasks.cc:197] schema: melt_eng
+I20240424 23:09:24.566229 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.schema.yaml"'.
+I20240424 23:09:24.568181 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:24.570133 33188 deployment_tasks.cc:85] updating rime installation info.
+I20240424 23:09:24.570133 33188 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\installation.yaml"'.
+I20240424 23:09:24.570133 33188 deployment_tasks.cc:103] installation info exists. installation id: Kyecox
+I20240424 23:09:24.570133 33188 deployment_tasks.cc:114] sync dir: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\sync"
+I20240424 23:09:24.570133 33188 deployment_tasks.cc:116] previous distribution: Weasel
+I20240424 23:09:24.570133 33188 deployment_tasks.cc:119] previous distribution version: 0.15.1.0
+I20240424 23:09:24.570133 33188 deployment_tasks.cc:122] previous Rime version: 1.9.0
+I20240424 23:09:24.574573 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:24.581408 35532 deployment_tasks.cc:360] preparing dictionary 'melt_eng'.
+I20240424 23:09:24.582383 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"
+I20240424 23:09:24.586287 33188 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:24.586287 33188 deployment_tasks.cc:78] modifications detected. workspace needs update.
+I20240424 23:09:24.586287 33188 rime_api.cc:106] changes detected; starting maintenance.
+I20240424 23:09:24.586287 33188 deployer.cc:118] starting work thread for 8 tasks.
+I20240424 23:09:24.586287 33188 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\weasel.yaml"'.
+I20240424 23:09:24.586287 32368 deployer.cc:79] running deployment tasks:
+I20240424 23:09:24.586287 32368 deployment_tasks.cc:583] clean up trash.
+I20240424 23:09:24.588239 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:09:24.589216 32368 deployment_tasks.cc:165] updating workspace.
+I20240424 23:09:24.589216 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.prism.bin"
+I20240424 23:09:24.589216 35532 prism.cc:106] found double array image of size 652544.
+I20240424 23:09:24.589216 32368 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\default.yaml"'.
+I20240424 23:09:24.589216 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.dict.yaml"[3 file(s)] (2235004452)
+I20240424 23:09:24.589216 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml" (2241380564)
+I20240424 23:09:24.589216 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.reverse.bin"
+I20240424 23:09:24.590193 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.yaml"'.
+I20240424 23:09:24.590193 35532 deployment_tasks.cc:377] dictionary 'melt_eng' is ready.
+I20240424 23:09:24.590193 35532 deployment_tasks.cc:197] schema: radical_pinyin
+I20240424 23:09:24.590193 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:24.592144 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:24.595072 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:24.596047 32368 deployment_tasks.cc:188] updating schemas.
+I20240424 23:09:24.596047 32368 deployment_tasks.cc:197] schema: rime_ice
+I20240424 23:09:24.596047 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.schema.yaml"'.
+I20240424 23:09:24.597023 35532 deployment_tasks.cc:360] preparing dictionary 'radical_pinyin'.
+I20240424 23:09:24.597999 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"
+I20240424 23:09:24.599951 32368 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:09:24.600927 32368 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"
+I20240424 23:09:24.605808 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.table.bin"
+I20240424 23:09:24.605808 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.prism.bin"
+I20240424 23:09:24.605808 35532 prism.cc:106] found double array image of size 105728.
+I20240424 23:09:24.605808 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.dict.yaml"[1 file(s)] (2800115411)
+I20240424 23:09:24.605808 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml" (1782276972)
+I20240424 23:09:24.605808 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.reverse.bin"
+I20240424 23:09:24.606784 35532 deployment_tasks.cc:377] dictionary 'radical_pinyin' is ready.
+I20240424 23:09:24.606784 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:24.611665 35532 deployment_tasks.cc:197] schema: double_pinyin_flypy
+I20240424 23:09:24.611665 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:24.615567 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:24.632158 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:24.649730 35532 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:09:24.650705 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"
+I20240424 23:09:25.110167 32368 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:09:25.121881 32368 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.prism.bin"
+I20240424 23:09:25.122856 32368 prism.cc:106] found double array image of size 2304.
+I20240424 23:09:25.122856 32368 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:09:25.122856 32368 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml" (1220211530)
+I20240424 23:09:25.122856 32368 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:09:25.122856 32368 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:09:25.123832 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:09:25.149856 32368 deployment_tasks.cc:197] schema: melt_eng
+I20240424 23:09:25.149856 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.schema.yaml"'.
+I20240424 23:09:25.151808 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:25.153759 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:09:25.160591 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:25.167457 32368 deployment_tasks.cc:360] preparing dictionary 'melt_eng'.
+I20240424 23:09:25.167457 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.prism.bin"
+I20240424 23:09:25.167457 35532 prism.cc:106] found double array image of size 1024.
+I20240424 23:09:25.167457 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:09:25.167457 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml" (3672580493)
+I20240424 23:09:25.167457 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:09:25.168432 35532 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:09:25.168432 32368 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"
+I20240424 23:09:25.170387 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:25.177217 32368 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:09:25.177217 32368 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.prism.bin"
+I20240424 23:09:25.177217 32368 prism.cc:106] found double array image of size 652544.
+I20240424 23:09:25.177217 32368 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.dict.yaml"[3 file(s)] (2235004452)
+I20240424 23:09:25.177217 32368 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml" (2241380564)
+I20240424 23:09:25.178193 32368 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.reverse.bin"
+I20240424 23:09:25.178193 32368 deployment_tasks.cc:377] dictionary 'melt_eng' is ready.
+I20240424 23:09:25.178193 32368 deployment_tasks.cc:197] schema: radical_pinyin
+I20240424 23:09:25.179169 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:25.183073 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:25.186002 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:25.189906 32368 deployment_tasks.cc:360] preparing dictionary 'radical_pinyin'.
+I20240424 23:09:25.190881 32368 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"
+I20240424 23:09:25.196738 35532 deployment_tasks.cc:197] schema: japanese
+I20240424 23:09:25.196738 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.schema.yaml"'.
+I20240424 23:09:25.201617 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:09:25.201617 32368 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.table.bin"
+I20240424 23:09:25.202592 32368 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.prism.bin"
+I20240424 23:09:25.202592 32368 prism.cc:106] found double array image of size 105728.
+I20240424 23:09:25.202592 32368 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.dict.yaml"[1 file(s)] (2800115411)
+I20240424 23:09:25.202592 32368 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml" (1782276972)
+I20240424 23:09:25.202592 32368 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.reverse.bin"
+I20240424 23:09:25.203569 32368 deployment_tasks.cc:377] dictionary 'radical_pinyin' is ready.
+I20240424 23:09:25.204546 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:25.206501 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:09:25.212353 35532 deployment_tasks.cc:360] preparing dictionary 'japanese'.
+I20240424 23:09:25.212353 32368 deployment_tasks.cc:197] schema: double_pinyin_flypy
+I20240424 23:09:25.212353 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:25.213332 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"
+I20240424 23:09:25.218210 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:25.240657 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:25.256275 32368 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:09:25.257251 32368 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"
+I20240424 23:09:25.631659 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.table.bin"
+I20240424 23:09:25.646798 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.prism.bin"
+I20240424 23:09:25.646798 35532 prism.cc:106] found double array image of size 6211584.
+I20240424 23:09:25.646798 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.dict.yaml"[4 file(s)] (409383324)
+I20240424 23:09:25.646798 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml" (87333066)
+I20240424 23:09:25.646798 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.reverse.bin"
+I20240424 23:09:25.661998 35532 deployment_tasks.cc:377] dictionary 'japanese' is ready.
+I20240424 23:09:25.662974 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:09:25.665952 35532 deployment_tasks.cc:197] schema: terra_pinyin.extended
+W20240424 23:09:25.665952 35532 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+I20240424 23:09:25.676074 35532 deployment_tasks.cc:197] schema: stroke
+I20240424 23:09:25.676074 35532 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.schema.yaml"'.
+I20240424 23:09:25.677069 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:25.679021 35532 deployment_tasks.cc:421] source file changed: "C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.schema.yaml"
+I20240424 23:09:25.680974 35532 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.schema.yaml"'.
+I20240424 23:09:25.680974 35532 auto_patch_config_plugin.cc:29] auto-patch stroke.schema:/__patch: stroke.custom:/patch?
+W20240424 23:09:25.681949 35532 config_data.cc:65] nonexistent config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\stroke.custom.yaml"'.
+I20240424 23:09:25.681949 35532 config_compiler.cc:426] optional resource not loaded: stroke.custom
+I20240424 23:09:25.681949 35532 config_compiler.cc:537] resolved: Patch(stroke.custom:patch <optional>)
+I20240424 23:09:25.681949 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.yaml"'.
+I20240424 23:09:25.683930 35532 auto_patch_config_plugin.cc:29] auto-patch default:/__patch: default.custom:/patch?
+I20240424 23:09:25.683930 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.custom.yaml"'.
+I20240424 23:09:25.683930 35532 config_compiler.cc:214] patching menu/page_size
+I20240424 23:09:25.683930 35532 config_compiler.cc:214] patching schema_list
+I20240424 23:09:25.683930 35532 config_compiler.cc:537] resolved: Patch(default.custom:patch <optional>)
+I20240424 23:09:25.683930 35532 legacy_preset_config_plugin.cc:26] interpreting key_binder/import_preset: default
+I20240424 23:09:25.683930 35532 legacy_preset_config_plugin.cc:52] interpreting punctuator/import_preset: default
+I20240424 23:09:25.683930 35532 legacy_preset_config_plugin.cc:65] interpreting recognizer/import_preset: default
+I20240424 23:09:25.683930 35532 build_info_plugin.cc:27] resource 'stroke.custom' not loaded.
+I20240424 23:09:25.683930 35532 config_data.cc:87] saving config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:25.685901 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:25.688831 35532 deployment_tasks.cc:360] preparing dictionary 'stroke'.
+I20240424 23:09:25.690783 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"
+I20240424 23:09:25.778779 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.table.bin"
+I20240424 23:09:25.779754 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.prism.bin"
+I20240424 23:09:25.779754 35532 prism.cc:106] found double array image of size 582400.
+I20240424 23:09:25.779754 35532 dict_compiler.cc:126] "C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.dict.yaml"[1 file(s)] (3701611552)
+I20240424 23:09:25.779754 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml" (1113407172)
+I20240424 23:09:25.779754 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.reverse.bin"
+I20240424 23:09:25.780730 35532 dict_compiler.cc:278] building prism...
+I20240424 23:09:25.780730 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.table.bin"
+I20240424 23:09:25.784189 32368 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:09:25.795025 32368 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.prism.bin"
+I20240424 23:09:25.795025 32368 prism.cc:106] found double array image of size 1024.
+I20240424 23:09:25.795025 32368 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:09:25.795025 32368 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml" (3672580493)
+I20240424 23:09:25.795025 32368 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:09:25.795025 32368 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:09:25.797278 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:25.820243 32368 deployment_tasks.cc:197] schema: japanese
+I20240424 23:09:25.820243 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.schema.yaml"'.
+I20240424 23:09:25.824177 32368 deployment_tasks.cc:360] preparing dictionary 'japanese'.
+I20240424 23:09:25.826151 32368 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"
+I20240424 23:09:25.892297 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:26.018774 35532 mapped_file.cc:59] creating file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.prism.bin"'.
+I20240424 23:09:26.021701 35532 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:09:26.037993 35532 prism.cc:117] saving prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.prism.bin"
+I20240424 23:09:26.037993 35532 mapped_file.cc:118] shrinking file to fit data size. capacity: 3544292
+I20240424 23:09:26.037993 35532 mapped_file.cc:129] resize file to: 2329916
+I20240424 23:09:26.048784 35532 deployment_tasks.cc:377] dictionary 'stroke' is ready.
+I20240424 23:09:26.049760 35532 deployment_tasks.cc:245] finished updating schemas: 6 success, 0 failure.
+I20240424 23:09:26.049760 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:26.050736 35532 config_data.cc:197] write: var/last_build_time
+I20240424 23:09:26.050736 35532 config_data.cc:87] saving config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:26.051712 35532 deployment_tasks.cc:583] clean up trash.
+I20240424 23:09:26.054194 35532 deployment_tasks.cc:165] updating workspace.
+I20240424 23:09:26.054194 35532 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\default.yaml"'.
+I20240424 23:09:26.055214 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.yaml"'.
+I20240424 23:09:26.063024 35532 deployment_tasks.cc:188] updating schemas.
+I20240424 23:09:26.064029 35532 deployment_tasks.cc:197] schema: rime_ice
+I20240424 23:09:26.064029 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.schema.yaml"'.
+I20240424 23:09:26.066973 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:09:26.092970 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:09:26.118034 35532 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:09:26.119010 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"
+I20240424 23:09:26.239451 32368 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.table.bin"
+I20240424 23:09:26.252693 32368 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.prism.bin"
+I20240424 23:09:26.252693 32368 prism.cc:106] found double array image of size 6211584.
+I20240424 23:09:26.252693 32368 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.dict.yaml"[4 file(s)] (409383324)
+I20240424 23:09:26.252693 32368 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml" (87333066)
+I20240424 23:09:26.252693 32368 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.reverse.bin"
+I20240424 23:09:26.268927 32368 deployment_tasks.cc:377] dictionary 'japanese' is ready.
+I20240424 23:09:26.269905 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:09:26.272835 32368 deployment_tasks.cc:197] schema: terra_pinyin.extended
+W20240424 23:09:26.273844 32368 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+I20240424 23:09:26.273844 32368 deployment_tasks.cc:197] schema: stroke
+I20240424 23:09:26.273844 32368 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.schema.yaml"'.
+I20240424 23:09:26.274837 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:26.277769 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:26.280697 32368 deployment_tasks.cc:360] preparing dictionary 'stroke'.
+I20240424 23:09:26.281673 32368 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"
+I20240424 23:09:26.375309 32368 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.table.bin"
+I20240424 23:09:26.376305 32368 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.prism.bin"
+I20240424 23:09:26.376305 32368 prism.cc:106] found double array image of size 582400.
+I20240424 23:09:26.376305 32368 dict_compiler.cc:126] "C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.dict.yaml"[1 file(s)] (3701611552)
+I20240424 23:09:26.376305 32368 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml" (1113407172)
+I20240424 23:09:26.376305 32368 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.reverse.bin"
+I20240424 23:09:26.377281 32368 deployment_tasks.cc:377] dictionary 'stroke' is ready.
+I20240424 23:09:26.377281 32368 deployment_tasks.cc:245] finished updating schemas: 6 success, 0 failure.
+I20240424 23:09:26.378257 32368 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:26.378257 32368 config_data.cc:197] write: var/last_build_time
+I20240424 23:09:26.378257 32368 config_data.cc:87] saving config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:26.378257 32368 deployment_tasks.cc:583] clean up trash.
+I20240424 23:09:26.380208 32368 deployer.cc:96] 5 tasks ran: 5 success, 0 failure.
+I20240424 23:09:26.619141 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:09:26.630385 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.prism.bin"
+I20240424 23:09:26.631361 35532 prism.cc:106] found double array image of size 2304.
+I20240424 23:09:26.631361 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:09:26.631361 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml" (1220211530)
+I20240424 23:09:26.631361 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:09:26.631361 35532 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:09:26.632337 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:09:26.659049 35532 deployment_tasks.cc:197] schema: melt_eng
+I20240424 23:09:26.660020 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.schema.yaml"'.
+I20240424 23:09:26.660996 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:26.666074 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:26.669981 35532 deployment_tasks.cc:360] preparing dictionary 'melt_eng'.
+I20240424 23:09:26.671000 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"
+I20240424 23:09:26.678857 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:09:26.678857 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.prism.bin"
+I20240424 23:09:26.678857 35532 prism.cc:106] found double array image of size 652544.
+I20240424 23:09:26.678857 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.dict.yaml"[3 file(s)] (2235004452)
+I20240424 23:09:26.678857 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml" (2241380564)
+I20240424 23:09:26.678857 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.reverse.bin"
+I20240424 23:09:26.679795 35532 deployment_tasks.cc:377] dictionary 'melt_eng' is ready.
+I20240424 23:09:26.679795 35532 deployment_tasks.cc:197] schema: radical_pinyin
+I20240424 23:09:26.679795 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:26.681747 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:26.682723 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:26.685235 35532 deployment_tasks.cc:360] preparing dictionary 'radical_pinyin'.
+I20240424 23:09:26.686210 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"
+I20240424 23:09:26.693042 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.table.bin"
+I20240424 23:09:26.693042 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.prism.bin"
+I20240424 23:09:26.693042 35532 prism.cc:106] found double array image of size 105728.
+I20240424 23:09:26.693042 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.dict.yaml"[1 file(s)] (2800115411)
+I20240424 23:09:26.693042 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml" (1782276972)
+I20240424 23:09:26.694101 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.reverse.bin"
+I20240424 23:09:26.694101 35532 deployment_tasks.cc:377] dictionary 'radical_pinyin' is ready.
+I20240424 23:09:26.695079 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:09:26.698987 35532 deployment_tasks.cc:197] schema: double_pinyin_flypy
+I20240424 23:09:26.698987 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:26.702891 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:26.718242 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:26.732964 35532 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:09:26.733969 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"
+I20240424 23:09:27.197594 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:09:27.209271 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.prism.bin"
+I20240424 23:09:27.210248 35532 prism.cc:106] found double array image of size 1024.
+I20240424 23:09:27.210248 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:09:27.210248 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml" (3672580493)
+I20240424 23:09:27.210248 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:09:27.210248 35532 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:09:27.211258 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:27.225863 35532 deployment_tasks.cc:197] schema: japanese
+I20240424 23:09:27.225863 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.schema.yaml"'.
+I20240424 23:09:27.228791 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:09:27.231719 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:09:27.234648 35532 deployment_tasks.cc:360] preparing dictionary 'japanese'.
+I20240424 23:09:27.236155 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"
+I20240424 23:09:27.625243 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.table.bin"
+I20240424 23:09:27.639449 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.prism.bin"
+I20240424 23:09:27.639449 35532 prism.cc:106] found double array image of size 6211584.
+I20240424 23:09:27.639449 35532 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.dict.yaml"[4 file(s)] (409383324)
+I20240424 23:09:27.639449 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml" (87333066)
+I20240424 23:09:27.639449 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.reverse.bin"
+I20240424 23:09:27.654089 35532 deployment_tasks.cc:377] dictionary 'japanese' is ready.
+I20240424 23:09:27.655067 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:09:27.657994 35532 deployment_tasks.cc:197] schema: terra_pinyin.extended
+W20240424 23:09:27.657994 35532 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+I20240424 23:09:27.657994 35532 deployment_tasks.cc:197] schema: stroke
+I20240424 23:09:27.657994 35532 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.schema.yaml"'.
+I20240424 23:09:27.658969 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:27.661897 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:09:27.663849 35532 deployment_tasks.cc:360] preparing dictionary 'stroke'.
+I20240424 23:09:27.664825 35532 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"
+I20240424 23:09:27.729281 35532 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.table.bin"
+I20240424 23:09:27.729281 35532 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.prism.bin"
+I20240424 23:09:27.730257 35532 prism.cc:106] found double array image of size 582400.
+I20240424 23:09:27.730257 35532 dict_compiler.cc:126] "C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.dict.yaml"[1 file(s)] (3701611552)
+I20240424 23:09:27.730257 35532 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml" (1113407172)
+I20240424 23:09:27.730257 35532 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.reverse.bin"
+I20240424 23:09:27.731233 35532 deployment_tasks.cc:377] dictionary 'stroke' is ready.
+I20240424 23:09:27.731233 35532 deployment_tasks.cc:245] finished updating schemas: 6 success, 0 failure.
+I20240424 23:09:27.731233 35532 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:27.731233 35532 config_data.cc:197] write: var/last_build_time
+I20240424 23:09:27.731233 35532 config_data.cc:87] saving config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:09:27.732250 35532 deployer.cc:96] 4 tasks ran: 4 success, 0 failure.

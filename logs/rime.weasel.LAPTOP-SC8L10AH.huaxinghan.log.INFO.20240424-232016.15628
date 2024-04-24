@@ -1,0 +1,207 @@
+Log file created at: 2024/04/24 23:20:16
+Running on machine: LAPTOP-SC8L10AH
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240424 23:20:16.086280 15624 core_module.cc:20] registering core components.
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: config_builder
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: config
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: schema
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: user_config
+I20240424 23:20:16.095260 15624 dict_module.cc:25] registering components from module 'dict'.
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: tabledb
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: stabledb
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: plain_userdb
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: userdb
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: corrector
+I20240424 23:20:16.095260 15624 registry.cc:14] registering component: dictionary
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: reverse_lookup_dictionary
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: user_dictionary
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: userdb_recovery_task
+I20240424 23:20:16.096258 15624 gears_module.cc:42] registering components from module 'gears'.
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: ascii_composer
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: chord_composer
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: express_editor
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: fluid_editor
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: fluency_editor
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: key_binder
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: navigator
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: punctuator
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: recognizer
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: selector
+I20240424 23:20:16.096258 15624 registry.cc:14] registering component: speller
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: shape_processor
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: abc_segmentor
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: affix_segmentor
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: ascii_segmentor
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: matcher
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: punct_segmentor
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: fallback_segmentor
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: echo_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: punct_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: table_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: script_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: r10n_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: reverse_lookup_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: schema_list_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: switch_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: history_translator
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: simplifier
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: uniquifier
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: charset_filter
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: cjk_minifier
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: reverse_lookup_filter
+I20240424 23:20:16.097256 15624 registry.cc:14] registering component: single_char_filter
+I20240424 23:20:16.098253 15624 registry.cc:14] registering component: shape_formatter
+I20240424 23:20:16.098253 15624 registry.cc:14] registering component: codepoint_translator
+I20240424 23:20:16.098253 15624 registry.cc:14] registering component: charset_filter
+W20240424 23:20:16.098253 15624 registry.cc:16] replacing previously registered component: charset_filter
+I20240424 23:20:16.100248 15624 modules.cc:94] registering components from module 'lua'.
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: lua_translator
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: lua_filter
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: lua_segmentor
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: lua_processor
+I20240424 23:20:16.126907 15624 grammar_module.cc:15] registering components from module 'grammar'.
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: grammar
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: predictor
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: predict_translator
+I20240424 23:20:16.126907 15624 levers_module.cc:22] registering components from module 'levers'.
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: detect_modifications
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: installation_update
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: workspace_update
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: schema_update
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: config_file_update
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: prebuild_all_schemas
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: user_dict_upgrade
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: cleanup_trash
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: user_dict_sync
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: backup_config_files
+I20240424 23:20:16.126907 15624 registry.cc:14] registering component: clean_old_log_files
+I20240424 23:20:16.129899 15624 deployment_tasks.cc:85] updating rime installation info.
+I20240424 23:20:16.130896 15624 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\installation.yaml"'.
+I20240424 23:20:16.131893 15624 deployment_tasks.cc:103] installation info exists. installation id: Kyecox
+I20240424 23:20:16.131893 15624 deployment_tasks.cc:114] sync dir: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\sync"
+I20240424 23:20:16.131893 15624 deployment_tasks.cc:116] previous distribution: Weasel
+I20240424 23:20:16.131893 15624 deployment_tasks.cc:119] previous distribution version: 0.15.1.0
+I20240424 23:20:16.131893 15624 deployment_tasks.cc:122] previous Rime version: 1.9.0
+I20240424 23:20:16.159440 15624 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:20:16.160437 15624 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\weasel.yaml"'.
+I20240424 23:20:18.745369 13588 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\default.yaml"'.
+I20240424 23:20:18.747363 13588 engine.cc:74] starting engine.
+I20240424 23:20:18.748360 13588 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:20:18.751353 13588 engine.cc:130] updated option: ascii_punct
+I20240424 23:20:18.751353 13588 engine.cc:130] updated option: full_shape
+I20240424 23:20:18.751353 13588 engine.cc:130] updated option: traditionalization
+I20240424 23:20:18.752350 13588 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:20:18.780275 13588 engine.cc:130] updated option: _auto_commit
+I20240424 23:20:18.781272 13588 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240424 23:20:18.781272 13588 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:20:18.800736 13588 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.prism.bin"
+I20240424 23:20:18.800736 13588 prism.cc:106] found double array image of size 2304.
+I20240424 23:20:18.821707 13588 tsv.cc:18] reading tsv file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\custom_phrase.txt"
+I20240424 23:20:18.823701 13588 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240424 23:20:18.823701 13588 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:20:18.824698 13588 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.prism.bin"
+I20240424 23:20:18.824698 13588 prism.cc:106] found double array image of size 652544.
+I20240424 23:20:18.824698 13588 tsv.cc:18] reading tsv file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\en_dicts\\cn_en.txt"
+I20240424 23:20:18.828692 13588 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:18.828692 13588 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.table.bin"
+I20240424 23:20:18.829658 13588 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.prism.bin"
+I20240424 23:20:18.829658 13588 prism.cc:106] found double array image of size 105728.
+I20240424 23:20:18.831688 13588 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:20:18.834672 13588 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:18.834672 13588 engine.cc:130] updated option: emoji
+I20240424 23:20:18.834672 13588 engine.cc:144] updated property: client_app
+I20240424 23:20:18.834672 13588 engine.cc:144] updated property: client_type
+I20240424 23:20:18.834672 13588 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:18.834672 13588 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:18.834672 13588 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:18.834672 13588 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:27.720448 12964 engine.cc:74] starting engine.
+I20240424 23:20:27.720448 12964 engine.cc:130] updated option: ascii_punct
+I20240424 23:20:27.720448 12964 engine.cc:130] updated option: full_shape
+I20240424 23:20:27.720448 12964 engine.cc:130] updated option: traditionalization
+I20240424 23:20:27.720448 12964 engine.cc:130] updated option: _auto_commit
+I20240424 23:20:27.720448 12964 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240424 23:20:27.721446 12964 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240424 23:20:27.721446 12964 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:27.723440 12964 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:27.723440 12964 engine.cc:130] updated option: emoji
+I20240424 23:20:27.723440 12964 engine.cc:144] updated property: client_app
+I20240424 23:20:27.723440 12964 engine.cc:144] updated property: client_type
+I20240424 23:20:27.723440 12964 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:27.723440 12964 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:27.723440 12964 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:27.723440 12964 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:32.756995 16948 engine.cc:74] starting engine.
+I20240424 23:20:32.756995 16948 engine.cc:130] updated option: ascii_punct
+I20240424 23:20:32.756995 16948 engine.cc:130] updated option: full_shape
+I20240424 23:20:32.756995 16948 engine.cc:130] updated option: traditionalization
+I20240424 23:20:32.757992 16948 engine.cc:130] updated option: _auto_commit
+I20240424 23:20:32.757992 16948 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240424 23:20:32.757992 16948 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240424 23:20:32.757992 16948 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:32.761979 16948 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:20:32.764971 16948 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:32.764971 16948 engine.cc:130] updated option: emoji
+I20240424 23:20:32.764971 16948 engine.cc:144] updated property: client_app
+I20240424 23:20:32.764971 16948 engine.cc:144] updated property: client_type
+I20240424 23:20:32.764971 16948 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:32.764971 16948 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:32.764971 16948 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:32.764971 16948 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:38.900643 17272 engine.cc:74] starting engine.
+I20240424 23:20:38.900643 17272 engine.cc:130] updated option: ascii_punct
+I20240424 23:20:38.900643 17272 engine.cc:130] updated option: full_shape
+I20240424 23:20:38.900643 17272 engine.cc:130] updated option: traditionalization
+I20240424 23:20:38.900643 17272 engine.cc:130] updated option: _auto_commit
+I20240424 23:20:38.900643 17272 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240424 23:20:38.900643 17272 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240424 23:20:38.900643 17272 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:38.902638 17272 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:38.902638 17272 engine.cc:130] updated option: emoji
+I20240424 23:20:38.902638 17272 engine.cc:144] updated property: client_app
+I20240424 23:20:38.902638 17272 engine.cc:144] updated property: client_type
+I20240424 23:20:38.902638 17272 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:38.902638 17272 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:38.902638 17272 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:38.902638 17272 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:41.895071  1276 engine.cc:74] starting engine.
+I20240424 23:20:41.895071  1276 engine.cc:130] updated option: ascii_punct
+I20240424 23:20:41.895071  1276 engine.cc:130] updated option: full_shape
+I20240424 23:20:41.895071  1276 engine.cc:130] updated option: traditionalization
+I20240424 23:20:41.895071  1276 engine.cc:130] updated option: _auto_commit
+I20240424 23:20:41.895071  1276 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240424 23:20:41.896068  1276 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240424 23:20:41.896068  1276 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:41.898063  1276 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:41.898063  1276 engine.cc:130] updated option: emoji
+I20240424 23:20:41.898063  1276 engine.cc:144] updated property: client_app
+I20240424 23:20:41.898063  1276 engine.cc:144] updated property: client_type
+I20240424 23:20:41.898063  1276 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:41.898063  1276 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:41.898063  1276 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:41.898063  1276 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:48.761420 17800 engine.cc:74] starting engine.
+I20240424 23:20:48.761420 17800 engine.cc:130] updated option: ascii_punct
+I20240424 23:20:48.761420 17800 engine.cc:130] updated option: full_shape
+I20240424 23:20:48.761420 17800 engine.cc:130] updated option: traditionalization
+I20240424 23:20:48.761420 17800 engine.cc:130] updated option: _auto_commit
+I20240424 23:20:48.761420 17800 dictionary.cc:324] loading dictionary 'rime_ice'.
+I20240424 23:20:48.762415 17800 dictionary.cc:324] loading dictionary 'melt_eng'.
+I20240424 23:20:48.762415 17800 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:48.763412 17800 dictionary.cc:324] loading dictionary 'radical_pinyin'.
+I20240424 23:20:48.763412 17800 engine.cc:130] updated option: emoji
+I20240424 23:20:48.763412 17800 engine.cc:144] updated property: client_app
+I20240424 23:20:48.763412 17800 engine.cc:144] updated property: client_type
+I20240424 23:20:48.763412 17800 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:48.763412 17800 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:48.764410 17800 engine.cc:130] updated option: inline_preedit
+I20240424 23:20:48.764410 17800 engine.cc:130] updated option: soft_cursor
+I20240424 23:20:49.081086 12964 simplifier.cc:35] initializing opencc: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\opencc\\emoji.json"
+I20240424 23:20:53.429132 15624 engine.cc:93] engine disposed.
+I20240424 23:20:53.429132 15624 engine.cc:93] engine disposed.
+I20240424 23:20:53.430128 15624 engine.cc:93] engine disposed.
+I20240424 23:20:53.430128 15624 engine.cc:93] engine disposed.
+I20240424 23:20:53.430128 15624 engine.cc:93] engine disposed.
+I20240424 23:20:53.430128 15624 engine.cc:93] engine disposed.
+I20240424 23:20:53.431128 15624 level_db.cc:284] closed db 'rime_ice'.

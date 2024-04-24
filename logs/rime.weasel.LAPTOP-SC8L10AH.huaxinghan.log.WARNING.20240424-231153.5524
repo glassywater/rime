@@ -1,0 +1,9 @@
+Log file created at: 2024/04/24 23:11:53
+Running on machine: LAPTOP-SC8L10AH
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W20240424 23:11:53.757001 26380 registry.cc:16] replacing previously registered component: charset_filter
+W20240424 23:11:53.998072 31308 deployer.cc:107] a work thread is already running.
+W20240424 23:11:55.319538  2692 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+W20240424 23:11:55.881608 33216 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+W20240424 23:11:56.896485  2692 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended

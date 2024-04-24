@@ -1,0 +1,5 @@
+Log file created at: 2024/04/24 23:13:45
+Running on machine: LAPTOP-SC8L10AH
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W20240424 23:13:45.346237 28696 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended

@@ -1,0 +1,10 @@
+Log file created at: 2024/04/24 23:09:23
+Running on machine: LAPTOP-SC8L10AH
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W20240424 23:09:23.985150 12812 registry.cc:16] replacing previously registered component: charset_filter
+W20240424 23:09:24.226827 28468 deployer.cc:107] a work thread is already running.
+W20240424 23:09:25.665952 35532 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+W20240424 23:09:25.681949 35532 config_data.cc:65] nonexistent config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\stroke.custom.yaml"'.
+W20240424 23:09:26.273844 32368 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+W20240424 23:09:27.657994 35532 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended

@@ -1,0 +1,65 @@
+Log file created at: 2024/04/24 23:09:41
+Running on machine: LAPTOP-SC8L10AH
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240424 23:09:41.429616  2528 core_module.cc:20] registering core components.
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: config_builder
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: config
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: schema
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: user_config
+I20240424 23:09:41.432544  2528 dict_module.cc:25] registering components from module 'dict'.
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: tabledb
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: stabledb
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: plain_userdb
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: userdb
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: corrector
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: dictionary
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: reverse_lookup_dictionary
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: user_dictionary
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: userdb_recovery_task
+I20240424 23:09:41.432544  2528 levers_module.cc:22] registering components from module 'levers'.
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: detect_modifications
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: installation_update
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: workspace_update
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: schema_update
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: config_file_update
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: prebuild_all_schemas
+I20240424 23:09:41.432544  2528 registry.cc:14] registering component: user_dict_upgrade
+I20240424 23:09:41.433521  2528 registry.cc:14] registering component: cleanup_trash
+I20240424 23:09:41.433521  2528 registry.cc:14] registering component: user_dict_sync
+I20240424 23:09:41.433521  2528 registry.cc:14] registering component: backup_config_files
+I20240424 23:09:41.433521  2528 registry.cc:14] registering component: clean_old_log_files
+I20240424 23:09:41.433521  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\default.yaml"'.
+I20240424 23:09:41.436448  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.custom.yaml"'.
+I20240424 23:09:41.436448  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\092R.schema.yaml"'.
+I20240424 23:09:41.439376  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\bopomofo.schema.yaml"'.
+I20240424 23:09:41.443280  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\bopomofo_express.schema.yaml"'.
+I20240424 23:09:41.444257  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\bopomofo_tw.schema.yaml"'.
+I20240424 23:09:41.445233  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\cangjie5.schema.yaml"'.
+I20240424 23:09:41.447185  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\cangjie5_express.schema.yaml"'.
+I20240424 23:09:41.449136  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\luna_pinyin.schema.yaml"'.
+I20240424 23:09:41.450114  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\luna_pinyin_fluency.schema.yaml"'.
+I20240424 23:09:41.451088  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\luna_pinyin_simp.schema.yaml"'.
+I20240424 23:09:41.452064  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\luna_pinyin_tw.schema.yaml"'.
+I20240424 23:09:41.452064  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\luna_quanpin.schema.yaml"'.
+I20240424 23:09:41.453042  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\pinyin_simp.schema.yaml"'.
+I20240424 23:09:41.454016  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.schema.yaml"'.
+I20240424 23:09:41.454993  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stzm.schema.yaml"'.
+I20240424 23:09:41.458897  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\terra_pinyin.schema.yaml"'.
+I20240424 23:09:41.460848  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\wubi86.schema.yaml"'.
+I20240424 23:09:41.461824  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\wubi986.schema.yaml"'.
+I20240424 23:09:41.462800  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\wubi_pinyin.schema.yaml"'.
+I20240424 23:09:41.463775  2528 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\wubi_trad.schema.yaml"'.
+I20240424 23:09:41.465728  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin.schema.yaml"'.
+I20240424 23:09:41.469280  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_abc.schema.yaml"'.
+I20240424 23:09:41.474819  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:09:41.479701  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_mspy.schema.yaml"'.
+I20240424 23:09:41.484581  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_sogou.schema.yaml"'.
+I20240424 23:09:41.487510  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_ziguang.schema.yaml"'.
+I20240424 23:09:41.492398  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.schema.yaml"'.
+I20240424 23:09:41.497269  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.schema.yaml"'.
+I20240424 23:09:41.498245  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.schema.yaml"'.
+I20240424 23:09:41.500200  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.schema.yaml"'.
+I20240424 23:09:41.503126  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\t9.schema.yaml"'.
+I20240424 23:09:41.505077  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\weasel.yaml"'.
+I20240424 23:09:41.510934  2528 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\weasel.custom.yaml"'.

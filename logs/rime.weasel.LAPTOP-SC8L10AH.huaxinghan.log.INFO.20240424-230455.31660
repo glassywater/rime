@@ -1,0 +1,708 @@
+Log file created at: 2024/04/24 23:04:55
+Running on machine: LAPTOP-SC8L10AH
+Running duration (h:mm:ss): 0:00:00
+Log line format: [IWEF]yyyymmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I20240424 23:04:55.979128 28652 core_module.cc:20] registering core components.
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: config_builder
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: config
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: schema
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: user_config
+I20240424 23:04:55.982055 28652 dict_module.cc:25] registering components from module 'dict'.
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: tabledb
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: stabledb
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: plain_userdb
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: userdb
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: corrector
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: dictionary
+I20240424 23:04:55.982055 28652 registry.cc:14] registering component: reverse_lookup_dictionary
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: user_dictionary
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: userdb_recovery_task
+I20240424 23:04:55.983031 28652 levers_module.cc:22] registering components from module 'levers'.
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: detect_modifications
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: installation_update
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: workspace_update
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: schema_update
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: config_file_update
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: prebuild_all_schemas
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: user_dict_upgrade
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: cleanup_trash
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: user_dict_sync
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: backup_config_files
+I20240424 23:04:55.983031 28652 registry.cc:14] registering component: clean_old_log_files
+I20240424 23:04:56.080631 28652 deployment_tasks.cc:85] updating rime installation info.
+I20240424 23:04:56.080631 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\installation.yaml"'.
+I20240424 23:04:56.081607 28652 deployment_tasks.cc:103] installation info exists. installation id: Kyecox
+I20240424 23:04:56.081607 28652 deployment_tasks.cc:114] sync dir: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\sync"
+I20240424 23:04:56.081607 28652 deployment_tasks.cc:116] previous distribution: Weasel
+I20240424 23:04:56.081607 28652 deployment_tasks.cc:119] previous distribution version: 0.15.1.0
+I20240424 23:04:56.081607 28652 deployment_tasks.cc:122] previous Rime version: 1.9.0
+I20240424 23:04:56.081607 28652 deployment_tasks.cc:165] updating workspace.
+I20240424 23:04:56.082583 28652 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\default.yaml"'.
+I20240424 23:04:56.084535 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.yaml"'.
+I20240424 23:04:56.088439 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\default.yaml"'.
+I20240424 23:04:56.103080 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\default.yaml"'.
+I20240424 23:04:56.105031 28652 deployment_tasks.cc:188] updating schemas.
+I20240424 23:04:56.105031 28652 deployment_tasks.cc:197] schema: rime_ice
+I20240424 23:04:56.105031 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.schema.yaml"'.
+I20240424 23:04:56.110888 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:04:56.143265 28652 deployment_tasks.cc:421] source file changed: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.schema.yaml"
+I20240424 23:04:56.145216 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.schema.yaml"'.
+I20240424 23:04:56.151072 28652 auto_patch_config_plugin.cc:29] auto-patch rime_ice.schema:/__patch: rime_ice.custom:/patch?
+I20240424 23:04:56.151072 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.yaml"'.
+I20240424 23:04:56.156929 28652 auto_patch_config_plugin.cc:29] auto-patch default:/__patch: default.custom:/patch?
+I20240424 23:04:56.156929 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.custom.yaml"'.
+I20240424 23:04:56.157904 28652 config_compiler.cc:214] patching menu/page_size
+I20240424 23:04:56.157904 28652 config_compiler.cc:214] patching schema_list
+I20240424 23:04:56.157904 28652 config_compiler.cc:537] resolved: Patch(default.custom:patch <optional>)
+I20240424 23:04:56.157904 28652 config_compiler.cc:537] resolved: Include(default:/punctuator/full_shape)
+I20240424 23:04:56.157904 28652 config_compiler.cc:537] resolved: PendingChild(rime_ice.schema:/punctuator/full_shape)
+I20240424 23:04:56.157904 28652 config_compiler.cc:537] resolved: Include(default:/punctuator/half_shape)
+I20240424 23:04:56.157904 28652 config_compiler.cc:537] resolved: PendingChild(rime_ice.schema:/punctuator/half_shape)
+I20240424 23:04:56.157904 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\symbols_v.yaml"'.
+I20240424 23:04:56.205729 28652 auto_patch_config_plugin.cc:29] auto-patch symbols_v:/__patch: symbols_v.custom:/patch?
+W20240424 23:04:56.206704 28652 config_data.cc:65] nonexistent config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\symbols_v.custom.yaml"'.
+I20240424 23:04:56.208865 28652 config_compiler.cc:426] optional resource not loaded: symbols_v.custom
+I20240424 23:04:56.208865 28652 config_compiler.cc:537] resolved: Patch(symbols_v.custom:patch <optional>)
+I20240424 23:04:56.209846 28652 config_compiler.cc:537] resolved: Include(symbols_v:/symbols)
+I20240424 23:04:56.209846 28652 config_compiler.cc:537] resolved: PendingChild(rime_ice.schema:/punctuator/symbols)
+I20240424 23:04:56.209846 28652 config_compiler.cc:537] resolved: PendingChild(rime_ice.schema:/punctuator)
+I20240424 23:04:56.209846 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.custom.yaml"'.
+I20240424 23:04:56.209846 28652 config_compiler.cc:537] resolved: Patch(rime_ice.custom:patch <optional>)
+I20240424 23:04:56.209846 28652 legacy_preset_config_plugin.cc:26] interpreting key_binder/import_preset: default
+I20240424 23:04:56.210530 28652 legacy_preset_config_plugin.cc:65] interpreting recognizer/import_preset: default
+I20240424 23:04:56.210530 28652 build_info_plugin.cc:27] resource 'symbols_v.custom' not loaded.
+I20240424 23:04:56.210530 28652 config_data.cc:87] saving config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:04:56.226749 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:04:56.258956 28652 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:04:56.259933 28652 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"
+I20240424 23:04:57.151036 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:04:57.174460 28652 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.prism.bin"
+I20240424 23:04:57.175436 28652 prism.cc:106] found double array image of size 2304.
+I20240424 23:04:57.175436 28652 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:04:57.175436 28652 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml" (1220211530)
+I20240424 23:04:57.175436 28652 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:04:57.176412 28652 dict_compiler.cc:203] building table: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:04:57.176412 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"
+I20240424 23:04:57.176412 28652 entry_collector.cc:123] Pass 1: total 37 entries collected.
+I20240424 23:04:57.176412 28652 entry_collector.cc:124] num unique syllables: 37
+I20240424 23:04:57.176412 28652 entry_collector.cc:125] num of entries to encode: 163
+I20240424 23:04:57.176412 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\cn_dicts\\8105.dict.yaml"
+I20240424 23:04:57.195935 28652 entry_collector.cc:123] Pass 1: total 8562 entries collected.
+I20240424 23:04:57.195935 28652 entry_collector.cc:124] num unique syllables: 438
+I20240424 23:04:57.195935 28652 entry_collector.cc:125] num of entries to encode: 163
+I20240424 23:04:57.195935 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\cn_dicts\\base.dict.yaml"
+I20240424 23:04:59.012559 28652 entry_collector.cc:123] Pass 1: total 544411 entries collected.
+I20240424 23:04:59.012559 28652 entry_collector.cc:124] num unique syllables: 438
+I20240424 23:04:59.012559 28652 entry_collector.cc:125] num of entries to encode: 163
+I20240424 23:04:59.012559 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\cn_dicts\\ext.dict.yaml"
+I20240424 23:05:00.044239 28652 entry_collector.cc:123] Pass 1: total 877133 entries collected.
+I20240424 23:05:00.044239 28652 entry_collector.cc:124] num unique syllables: 438
+I20240424 23:05:00.044239 28652 entry_collector.cc:125] num of entries to encode: 163
+I20240424 23:05:00.044239 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\cn_dicts\\tencent.dict.yaml"
+I20240424 23:05:01.358548 28652 entry_collector.cc:123] Pass 1: total 877133 entries collected.
+I20240424 23:05:01.358548 28652 entry_collector.cc:124] num unique syllables: 438
+I20240424 23:05:01.358548 28652 entry_collector.cc:125] num of entries to encode: 993282
+I20240424 23:05:01.358548 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\cn_dicts\\others.dict.yaml"
+I20240424 23:05:01.360504 28652 entry_collector.cc:123] Pass 1: total 877441 entries collected.
+I20240424 23:05:01.360504 28652 entry_collector.cc:124] num unique syllables: 438
+I20240424 23:05:01.360504 28652 entry_collector.cc:125] num of entries to encode: 993554
+I20240424 23:05:07.100689 28652 entry_collector.cc:137] Pass 2: total 1881813 entries collected.
+I20240424 23:05:07.274955 28652 entry_collector.cc:152] Pass 3: total 1881813 entries collected.
+I20240424 23:05:10.531502 28652 table.cc:322] building table.
+I20240424 23:05:10.531502 28652 table.cc:323] num syllables: 438
+I20240424 23:05:10.531502 28652 table.cc:324] num entries: 1881813
+I20240424 23:05:10.531502 28652 table.cc:325] estimated file size: 120454144
+I20240424 23:05:10.532476 28652 mapped_file.cc:59] creating file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"'.
+I20240424 23:05:10.532476 28652 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:05:10.533452 28652 table.cc:331] creating metadata.
+I20240424 23:05:10.533452 28652 table.cc:345] creating syllabary.
+I20240424 23:05:10.533452 28652 table.cc:358] creating table index.
+I20240424 23:05:12.730926 28652 table.cc:300] saving table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:05:12.730926 28652 mapped_file.cc:118] shrinking file to fit data size. capacity: 120454144
+I20240424 23:05:12.730926 28652 mapped_file.cc:129] resize file to: 60764812
+I20240424 23:05:12.734823 28652 reverse_lookup_dictionary.cc:89] building reversedb...
+I20240424 23:05:12.743165 28652 mapped_file.cc:56] overwriting file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"'.
+I20240424 23:05:12.743165 28652 mapped_file.cc:129] resize file to: 57768
+I20240424 23:05:12.743165 28652 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:05:12.745193 28652 reverse_lookup_dictionary.cc:197] saving reverse file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:05:12.745193 28652 mapped_file.cc:118] shrinking file to fit data size. capacity: 57768
+I20240424 23:05:12.745193 28652 mapped_file.cc:129] resize file to: 56808
+I20240424 23:05:13.554701 28652 dict_compiler.cc:278] building prism...
+I20240424 23:05:13.554701 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:05:13.566412 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:05:13.642210 28652 mapped_file.cc:59] creating file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.prism.bin"'.
+I20240424 23:05:13.643186 28652 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:05:13.643186 28652 prism.cc:117] saving prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.prism.bin"
+I20240424 23:05:13.644162 28652 mapped_file.cc:118] shrinking file to fit data size. capacity: 67180
+I20240424 23:05:13.644162 28652 mapped_file.cc:129] resize file to: 39864
+I20240424 23:05:13.645138 28652 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:05:13.662706 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.schema.yaml"'.
+I20240424 23:05:13.683202 28652 deployment_tasks.cc:197] schema: melt_eng
+I20240424 23:05:13.683202 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.schema.yaml"'.
+I20240424 23:05:13.686131 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:05:13.690034 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:05:13.692961 28652 deployment_tasks.cc:360] preparing dictionary 'melt_eng'.
+I20240424 23:05:13.693938 28652 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"
+I20240424 23:05:13.698817 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:05:13.699795 28652 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.prism.bin"
+I20240424 23:05:13.699795 28652 prism.cc:106] found double array image of size 651520.
+I20240424 23:05:13.699795 28652 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.dict.yaml"[3 file(s)] (2235004452)
+I20240424 23:05:13.699795 28652 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml" (2241380564)
+I20240424 23:05:13.700770 28652 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.reverse.bin"
+I20240424 23:05:13.701746 28652 dict_compiler.cc:203] building table: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:05:13.701746 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\melt_eng.dict.yaml"
+I20240424 23:05:13.701746 28652 entry_collector.cc:123] Pass 1: total 0 entries collected.
+I20240424 23:05:13.701746 28652 entry_collector.cc:124] num unique syllables: 0
+I20240424 23:05:13.701746 28652 entry_collector.cc:125] num of entries to encode: 0
+I20240424 23:05:13.701746 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\en_dicts\\en_ext.dict.yaml"
+W20240424 23:05:13.702723 28652 entry_collector.cc:202] duplicate word definition 'Windows XP': [WindowsXP].
+W20240424 23:05:13.704628 28652 entry_collector.cc:202] duplicate word definition 'Windows Vista': [WindowsVista].
+W20240424 23:05:13.705132 28652 entry_collector.cc:202] duplicate word definition 'Windows Me': [WindowsMe].
+W20240424 23:05:13.706163 28652 entry_collector.cc:202] duplicate word definition 'LCD': [LCD].
+W20240424 23:05:13.706163 28652 entry_collector.cc:202] duplicate word definition 'Windows': [Windows].
+W20240424 23:05:13.707142 28652 entry_collector.cc:202] duplicate word definition 'iPhone': [iPhone].
+W20240424 23:05:13.707142 28652 entry_collector.cc:202] duplicate word definition 'United Kingdom': [UnitedKingdom].
+W20240424 23:05:13.707142 28652 entry_collector.cc:202] duplicate word definition 'Universal Actions': [UniversalActions].
+W20240424 23:05:13.707142 28652 entry_collector.cc:202] duplicate word definition 'SSL': [SSL].
+W20240424 23:05:13.708118 28652 entry_collector.cc:202] duplicate word definition 'Writerside': [Writerside].
+I20240424 23:05:13.709095 28652 entry_collector.cc:123] Pass 1: total 2445 entries collected.
+I20240424 23:05:13.709095 28652 entry_collector.cc:124] num unique syllables: 2150
+I20240424 23:05:13.709095 28652 entry_collector.cc:125] num of entries to encode: 0
+I20240424 23:05:13.709095 28652 entry_collector.cc:58] collecting entries from "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\en_dicts\\en.dict.yaml"
+W20240424 23:05:13.709095 28652 entry_collector.cc:202] duplicate word definition 'abc': [abc].
+W20240424 23:05:13.709095 28652 entry_collector.cc:202] duplicate word definition 'ABC': [ABC].
+W20240424 23:05:13.709095 28652 entry_collector.cc:202] duplicate word definition 'ABS': [ABS].
+W20240424 23:05:13.709095 28652 entry_collector.cc:202] duplicate word definition 'ADC': [ADC].
+W20240424 23:05:13.709095 28652 entry_collector.cc:202] duplicate word definition 'ADHD': [ADHD].
+W20240424 23:05:13.710069 28652 entry_collector.cc:202] duplicate word definition 'Adobe': [Adobe].
+W20240424 23:05:13.710069 28652 entry_collector.cc:202] duplicate word definition 'ADSL': [ADSL].
+W20240424 23:05:13.710069 28652 entry_collector.cc:202] duplicate word definition 'AK': [AK].
+W20240424 23:05:13.710069 28652 entry_collector.cc:202] duplicate word definition 'alchemy': [alchemy].
+W20240424 23:05:13.710069 28652 entry_collector.cc:202] duplicate word definition 'Alfred': [Alfred].
+W20240424 23:05:13.710069 28652 entry_collector.cc:202] duplicate word definition 'Alibaba': [Alibaba].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'AMD': [AMD].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'American': [American].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'Amy': [Amy].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'angular': [angular].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'annotate': [annotate].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'annotated': [annotated].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'ANSI': [ANSI].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'Apache': [Apache].
+W20240424 23:05:13.711045 28652 entry_collector.cc:202] duplicate word definition 'API': [API].
+W20240424 23:05:13.712023 28652 entry_collector.cc:202] duplicate word definition 'April': [April].
+W20240424 23:05:13.712023 28652 entry_collector.cc:202] duplicate word definition 'arch': [arch].
+W20240424 23:05:13.712023 28652 entry_collector.cc:202] duplicate word definition 'archive': [archive].
+W20240424 23:05:13.712023 28652 entry_collector.cc:202] duplicate word definition 'Aries': [Aries].
+W20240424 23:05:13.712023 28652 entry_collector.cc:202] duplicate word definition 'ASAP': [ASAP].
+W20240424 23:05:13.712997 28652 entry_collector.cc:202] duplicate word definition 'ASCII': [ASCII].
+W20240424 23:05:13.712997 28652 entry_collector.cc:202] duplicate word definition 'ATI': [ATI].
+W20240424 23:05:13.712997 28652 entry_collector.cc:202] duplicate word definition 'ATM': [ATM].
+W20240424 23:05:13.712997 28652 entry_collector.cc:202] duplicate word definition 'August': [August].
+W20240424 23:05:13.712997 28652 entry_collector.cc:202] duplicate word definition 'Australia': [Australia].
+W20240424 23:05:13.712997 28652 entry_collector.cc:202] duplicate word definition 'Australian': [Australian].
+W20240424 23:05:13.713973 28652 entry_collector.cc:202] duplicate word definition 'autonomous': [autonomous].
+W20240424 23:05:13.713973 28652 entry_collector.cc:202] duplicate word definition 'AV': [AV].
+W20240424 23:05:13.713973 28652 entry_collector.cc:202] duplicate word definition 'bard': [bard].
+W20240424 23:05:13.713973 28652 entry_collector.cc:202] duplicate word definition 'BBC': [BBC].
+W20240424 23:05:13.713973 28652 entry_collector.cc:202] duplicate word definition 'BBQ': [BBQ].
+W20240424 23:05:13.713973 28652 entry_collector.cc:202] duplicate word definition 'BBS': [BBS].
+W20240424 23:05:13.714949 28652 entry_collector.cc:202] duplicate word definition 'bin': [bin].
+W20240424 23:05:13.714949 28652 entry_collector.cc:202] duplicate word definition 'BIOS': [BIOS].
+W20240424 23:05:13.714949 28652 entry_collector.cc:202] duplicate word definition 'BMW': [BMW].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'Braun': [Braun].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'Brazil': [Brazil].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'Brazilian': [Brazilian].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'Brenda': [Brenda].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'brew': [brew].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'Britain': [Britain].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'BSD': [BSD].
+W20240424 23:05:13.715927 28652 entry_collector.cc:202] duplicate word definition 'BTW': [BTW].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'Buddhism': [Buddhism].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'buffer': [buffer].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'burnt': [burnt].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'Canada': [Canada].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'Canadian': [Canadian].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'candid': [candid].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'Caps': [Caps].
+W20240424 23:05:13.716902 28652 entry_collector.cc:202] duplicate word definition 'Carolyn': [Carolyn].
+W20240424 23:05:13.717878 28652 entry_collector.cc:202] duplicate word definition 'Catholic': [Catholic].
+W20240424 23:05:13.717878 28652 entry_collector.cc:202] duplicate word definition 'CCTV': [CCTV].
+W20240424 23:05:13.717878 28652 entry_collector.cc:202] duplicate word definition 'CD': [CD].
+W20240424 23:05:13.717878 28652 entry_collector.cc:202] duplicate word definition 'CDN': [CDN].
+W20240424 23:05:13.717878 28652 entry_collector.cc:202] duplicate word definition 'CEO': [CEO].
+W20240424 23:05:13.717878 28652 entry_collector.cc:202] duplicate word definition 'CFO': [CFO].
+W20240424 23:05:13.717878 28652 entry_collector.cc:202] duplicate word definition 'Chandler': [Chandler].
+W20240424 23:05:13.718853 28652 entry_collector.cc:202] duplicate word definition 'Cheryl': [Cheryl].
+W20240424 23:05:13.718853 28652 entry_collector.cc:202] duplicate word definition 'Chinese': [Chinese].
+W20240424 23:05:13.718853 28652 entry_collector.cc:202] duplicate word definition 'Christ': [Christ].
+W20240424 23:05:13.718853 28652 entry_collector.cc:202] duplicate word definition 'Christian': [Christian].
+W20240424 23:05:13.718853 28652 entry_collector.cc:202] duplicate word definition 'Christmas': [Christmas].
+W20240424 23:05:13.718853 28652 entry_collector.cc:202] duplicate word definition 'Cinderella': [Cinderella].
+W20240424 23:05:13.719831 28652 entry_collector.cc:202] duplicate word definition 'Claude': [Claude].
+W20240424 23:05:13.719831 28652 entry_collector.cc:202] duplicate word definition 'CLI': [CLI].
+W20240424 23:05:13.719831 28652 entry_collector.cc:202] duplicate word definition 'clipboard': [clipboard].
+W20240424 23:05:13.719831 28652 entry_collector.cc:202] duplicate word definition 'cmd': [cmd].
+W20240424 23:05:13.719831 28652 entry_collector.cc:202] duplicate word definition 'CN': [CN].
+W20240424 23:05:13.720806 28652 entry_collector.cc:202] duplicate word definition 'colon': [colon].
+W20240424 23:05:13.720806 28652 entry_collector.cc:202] duplicate word definition 'command': [command].
+W20240424 23:05:13.721782 28652 entry_collector.cc:202] duplicate word definition 'control': [control].
+W20240424 23:05:13.722759 28652 entry_collector.cc:202] duplicate word definition 'CPU': [CPU].
+W20240424 23:05:13.722759 28652 entry_collector.cc:202] duplicate word definition 'CS': [CS].
+W20240424 23:05:13.722759 28652 entry_collector.cc:202] duplicate word definition 'CSS': [CSS].
+W20240424 23:05:13.722759 28652 entry_collector.cc:202] duplicate word definition 'Ctrl': [Ctrl].
+W20240424 23:05:13.722759 28652 entry_collector.cc:202] duplicate word definition 'Cynthia': [Cynthia].
+W20240424 23:05:13.722759 28652 entry_collector.cc:202] duplicate word definition 'Danish': [Danish].
+W20240424 23:05:13.722759 28652 entry_collector.cc:202] duplicate word definition 'dashboard': [dashboard].
+W20240424 23:05:13.723734 28652 entry_collector.cc:202] duplicate word definition 'Debian': [Debian].
+W20240424 23:05:13.723734 28652 entry_collector.cc:202] duplicate word definition 'Debra': [Debra].
+W20240424 23:05:13.723734 28652 entry_collector.cc:202] duplicate word definition 'December': [December].
+W20240424 23:05:13.723734 28652 entry_collector.cc:202] duplicate word definition 'delete': [delete].
+W20240424 23:05:13.724709 28652 entry_collector.cc:202] duplicate word definition 'Denise': [Denise].
+W20240424 23:05:13.724709 28652 entry_collector.cc:202] duplicate word definition 'Denmark': [Denmark].
+W20240424 23:05:13.724709 28652 entry_collector.cc:202] duplicate word definition 'departed': [departed].
+W20240424 23:05:13.724709 28652 entry_collector.cc:202] duplicate word definition 'deploy': [deploy].
+W20240424 23:05:13.724709 28652 entry_collector.cc:202] duplicate word definition 'deprecated': [deprecated].
+W20240424 23:05:13.724709 28652 entry_collector.cc:202] duplicate word definition 'DHCP': [DHCP].
+W20240424 23:05:13.724709 28652 entry_collector.cc:202] duplicate word definition 'diffusion': [diffusion].
+W20240424 23:05:13.725687 28652 entry_collector.cc:202] duplicate word definition 'DirectX': [DirectX].
+W20240424 23:05:13.725687 28652 entry_collector.cc:202] duplicate word definition 'DIY': [DIY].
+W20240424 23:05:13.725687 28652 entry_collector.cc:202] duplicate word definition 'DJ': [DJ].
+W20240424 23:05:13.725687 28652 entry_collector.cc:202] duplicate word definition 'DNA': [DNA].
+W20240424 23:05:13.725687 28652 entry_collector.cc:202] duplicate word definition 'DNS': [DNS].
+W20240424 23:05:13.726661 28652 entry_collector.cc:202] duplicate word definition 'Doris': [Doris].
+W20240424 23:05:13.726661 28652 entry_collector.cc:202] duplicate word definition 'DOS': [DOS].
+W20240424 23:05:13.726661 28652 entry_collector.cc:202] duplicate word definition 'Dutch': [Dutch].
+W20240424 23:05:13.726661 28652 entry_collector.cc:202] duplicate word definition 'DVD': [DVD].
+W20240424 23:05:13.726661 28652 entry_collector.cc:202] duplicate word definition 'Easter': [Easter].
+W20240424 23:05:13.727638 28652 entry_collector.cc:202] duplicate word definition 'Egypt': [Egypt].
+W20240424 23:05:13.727638 28652 entry_collector.cc:202] duplicate word definition 'Egyptian': [Egyptian].
+W20240424 23:05:13.727638 28652 entry_collector.cc:202] duplicate word definition 'eject': [eject].
+W20240424 23:05:13.727638 28652 entry_collector.cc:202] duplicate word definition 'Elijah': [Elijah].
+W20240424 23:05:13.727638 28652 entry_collector.cc:202] duplicate word definition 'emo': [emo].
+W20240424 23:05:13.727638 28652 entry_collector.cc:202] duplicate word definition 'EMS': [EMS].
+W20240424 23:05:13.728614 28652 entry_collector.cc:202] duplicate word definition 'encore': [encore].
+W20240424 23:05:13.728614 28652 entry_collector.cc:202] duplicate word definition 'England': [England].
+W20240424 23:05:13.728614 28652 entry_collector.cc:202] duplicate word definition 'English': [English].
+W20240424 23:05:13.728614 28652 entry_collector.cc:202] duplicate word definition 'enter': [enter].
+W20240424 23:05:13.728614 28652 entry_collector.cc:202] duplicate word definition 'Enya': [Enya].
+W20240424 23:05:13.728614 28652 entry_collector.cc:202] duplicate word definition 'Epic': [Epic].
+W20240424 23:05:13.728614 28652 entry_collector.cc:202] duplicate word definition 'Ernest': [Ernest].
+W20240424 23:05:13.729590 28652 entry_collector.cc:202] duplicate word definition 'Esc': [Esc].
+W20240424 23:05:13.729590 28652 entry_collector.cc:202] duplicate word definition 'Evelyn': [Evelyn].
+W20240424 23:05:13.729590 28652 entry_collector.cc:202] duplicate word definition 'exe': [exe].
+W20240424 23:05:13.730566 28652 entry_collector.cc:202] duplicate word definition 'Fahrenheit': [Fahrenheit].
+W20240424 23:05:13.730566 28652 entry_collector.cc:202] duplicate word definition 'FAQ': [FAQ].
+W20240424 23:05:13.730566 28652 entry_collector.cc:202] duplicate word definition 'FBI': [FBI].
+W20240424 23:05:13.730566 28652 entry_collector.cc:202] duplicate word definition 'February': [February].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'FIFA': [FIFA].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'Filipino': [Filipino].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'Finland': [Finland].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'Finnish': [Finnish].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'Firefox': [Firefox].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'flies': [flies].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'Fn': [Fn].
+W20240424 23:05:13.731542 28652 entry_collector.cc:202] duplicate word definition 'followers': [followers].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'footer': [footer].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'France': [France].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'Frances': [Frances].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'French': [French].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'Friday': [Friday].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'FTP': [FTP].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'furry': [furry].
+W20240424 23:05:13.732518 28652 entry_collector.cc:202] duplicate word definition 'FYI': [FYI].
+W20240424 23:05:13.733494 28652 entry_collector.cc:202] duplicate word definition 'GBA': [GBA].
+W20240424 23:05:13.733494 28652 entry_collector.cc:202] duplicate word definition 'GCC': [GCC].
+W20240424 23:05:13.733494 28652 entry_collector.cc:202] duplicate word definition 'German': [German].
+W20240424 23:05:13.733494 28652 entry_collector.cc:202] duplicate word definition 'Germany': [Germany].
+W20240424 23:05:13.733494 28652 entry_collector.cc:202] duplicate word definition 'ghosts': [ghosts].
+W20240424 23:05:13.733494 28652 entry_collector.cc:202] duplicate word definition 'GIF': [GIF].
+W20240424 23:05:13.733494 28652 entry_collector.cc:202] duplicate word definition 'GMT': [GMT].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'GNU': [GNU].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'Google': [Google].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'GPL': [GPL].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'GPS': [GPS].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'Greece': [Greece].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'Greek': [Greek].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'GTA': [GTA].
+W20240424 23:05:13.734470 28652 entry_collector.cc:202] duplicate word definition 'GUI': [GUI].
+W20240424 23:05:13.735446 28652 entry_collector.cc:202] duplicate word definition 'header': [header].
+W20240424 23:05:13.735446 28652 entry_collector.cc:202] duplicate word definition 'Hebrew': [Hebrew].
+W20240424 23:05:13.736423 28652 entry_collector.cc:202] duplicate word definition 'hell': [hell].
+W20240424 23:05:13.736423 28652 entry_collector.cc:202] duplicate word definition 'Hindi': [Hindi].
+W20240424 23:05:13.737397 28652 entry_collector.cc:202] duplicate word definition 'HK': [HK].
+W20240424 23:05:13.737397 28652 entry_collector.cc:202] duplicate word definition 'homemade': [homemade].
+W20240424 23:05:13.737397 28652 entry_collector.cc:202] duplicate word definition 'Howard': [Howard].
+W20240424 23:05:13.737397 28652 entry_collector.cc:202] duplicate word definition 'HTML': [HTML].
+W20240424 23:05:13.737397 28652 entry_collector.cc:202] duplicate word definition 'HTTP': [HTTP].
+W20240424 23:05:13.737397 28652 entry_collector.cc:202] duplicate word definition 'HTTPS': [HTTPS].
+W20240424 23:05:13.737397 28652 entry_collector.cc:202] duplicate word definition 'Hugo': [Hugo].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'IBM': [IBM].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'Iceland': [Iceland].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'Icelandic': [Icelandic].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'IDC': [IDC].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'IDE': [IDE].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'IE': [IE].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'IEEE': [IEEE].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'IETF': [IETF].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'IMAP': [IMAP].
+W20240424 23:05:13.738373 28652 entry_collector.cc:202] duplicate word definition 'India': [India].
+W20240424 23:05:13.739349 28652 entry_collector.cc:202] duplicate word definition 'Indian': [Indian].
+W20240424 23:05:13.739349 28652 entry_collector.cc:202] duplicate word definition 'Intel': [Intel].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'iOS': [iOS].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'IP': [IP].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'IPO': [IPO].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'iPod': [iPod].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Iran': [Iran].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Iranian': [Iranian].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Ireland': [Ireland].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Irene': [Irene].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'iris': [iris].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Irish': [Irish].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Isabella': [Isabella].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'ISBN': [ISBN].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'ISO': [ISO].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Israel': [Israel].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Israeli': [Israeli].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'ISSN': [ISSN].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Italian': [Italian].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'Italy': [Italy].
+W20240424 23:05:13.740325 28652 entry_collector.cc:202] duplicate word definition 'iTunes': [iTunes].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Jacqueline': [Jacqueline].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Janice': [Janice].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'January': [January].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Japan': [Japan].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Japanese': [Japanese].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Jay': [Jay].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Jenny': [Jenny].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Joey': [Joey].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Joplin': [Joplin].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'JPEG': [JPEG].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'JPG': [JPG].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Judith': [Judith].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'July': [July].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'June': [June].
+W20240424 23:05:13.741302 28652 entry_collector.cc:202] duplicate word definition 'Jupiter': [Jupiter].
+W20240424 23:05:13.742277 28652 entry_collector.cc:202] duplicate word definition 'Katherine': [Katherine].
+W20240424 23:05:13.742277 28652 entry_collector.cc:202] duplicate word definition 'Kimberly': [Kimberly].
+W20240424 23:05:13.742277 28652 entry_collector.cc:202] duplicate word definition 'Korea': [Korea].
+W20240424 23:05:13.742277 28652 entry_collector.cc:202] duplicate word definition 'Korean': [Korean].
+W20240424 23:05:13.742277 28652 entry_collector.cc:202] duplicate word definition 'LaTeX': [LaTeX].
+W20240424 23:05:13.742277 28652 entry_collector.cc:202] duplicate word definition 'Latin': [Latin].
+W20240424 23:05:13.743253 28652 entry_collector.cc:202] duplicate word definition 'layouts': [layouts].
+W20240424 23:05:13.743253 28652 entry_collector.cc:202] duplicate word definition 'LCD': [LCD].
+W20240424 23:05:13.743253 28652 entry_collector.cc:202] duplicate word definition 'Leonard': [Leonard].
+W20240424 23:05:13.743253 28652 entry_collector.cc:202] duplicate word definition 'Liam': [Liam].
+W20240424 23:05:13.743253 28652 entry_collector.cc:202] duplicate word definition 'Lillian': [Lillian].
+W20240424 23:05:13.743253 28652 entry_collector.cc:202] duplicate word definition 'Linus': [Linus].
+W20240424 23:05:13.743253 28652 entry_collector.cc:202] duplicate word definition 'Linux': [Linux].
+W20240424 23:05:13.744230 28652 entry_collector.cc:202] duplicate word definition 'localhost': [localhost].
+W20240424 23:05:13.744230 28652 entry_collector.cc:202] duplicate word definition 'Lois': [Lois].
+W20240424 23:05:13.744230 28652 entry_collector.cc:202] duplicate word definition 'LOL': [LOL].
+W20240424 23:05:13.744230 28652 entry_collector.cc:202] duplicate word definition 'macOS': [macOS].
+W20240424 23:05:13.744230 28652 entry_collector.cc:202] duplicate word definition 'Maine': [Maine].
+W20240424 23:05:13.745205 28652 entry_collector.cc:202] duplicate word definition 'March': [March].
+W20240424 23:05:13.745205 28652 entry_collector.cc:202] duplicate word definition 'markdown': [markdown].
+W20240424 23:05:13.745205 28652 entry_collector.cc:202] duplicate word definition 'Mars': [Mars].
+W20240424 23:05:13.745205 28652 entry_collector.cc:202] duplicate word definition 'May': [May].
+W20240424 23:05:13.745205 28652 entry_collector.cc:202] duplicate word definition 'MBA': [MBA].
+W20240424 23:05:13.745205 28652 entry_collector.cc:202] duplicate word definition 'McAfee': [McAfee].
+W20240424 23:05:13.746183 28652 entry_collector.cc:202] duplicate word definition 'meridian': [meridian].
+W20240424 23:05:13.746183 28652 entry_collector.cc:202] duplicate word definition 'Microsoft': [Microsoft].
+W20240424 23:05:13.746183 28652 entry_collector.cc:202] duplicate word definition 'MIT': [MIT].
+W20240424 23:05:13.746183 28652 entry_collector.cc:202] duplicate word definition 'mitigation': [mitigation].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'Monday': [Monday].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'Monica': [Monica].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'Mozilla': [Mozilla].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'mRNA': [mRNA].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'MSN': [MSN].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'MTV': [MTV].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'MVC': [MVC].
+W20240424 23:05:13.747159 28652 entry_collector.cc:202] duplicate word definition 'MySQL': [MySQL].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'NAS': [NAS].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'NASA': [NASA].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'NATO': [NATO].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'NBA': [NBA].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'Negro': [Negro].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'nerd': [nerd].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'net': [net].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'Netherlands': [Netherlands].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'nexus': [nexus].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'NGO': [NGO].
+W20240424 23:05:13.748134 28652 entry_collector.cc:202] duplicate word definition 'nil': [nil].
+W20240424 23:05:13.749110 28652 entry_collector.cc:202] duplicate word definition 'Nintendo': [Nintendo].
+W20240424 23:05:13.749110 28652 entry_collector.cc:202] duplicate word definition 'Noah': [Noah].
+W20240424 23:05:13.749110 28652 entry_collector.cc:202] duplicate word definition 'Norma': [Norma].
+W20240424 23:05:13.749110 28652 entry_collector.cc:202] duplicate word definition 'November': [November].
+W20240424 23:05:13.749110 28652 entry_collector.cc:202] duplicate word definition 'October': [October].
+W20240424 23:05:13.749110 28652 entry_collector.cc:202] duplicate word definition 'OK': [OK].
+W20240424 23:05:13.749110 28652 entry_collector.cc:202] duplicate word definition 'Olivia': [Olivia].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'OMG': [OMG].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'OpenBSD': [OpenBSD].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'option': [option].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'Orion': [Orion].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'OS': [OS].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'OSS': [OSS].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'OTC': [OTC].
+W20240424 23:05:13.750087 28652 entry_collector.cc:202] duplicate word definition 'overcast': [overcast].
+W20240424 23:05:13.751061 28652 entry_collector.cc:202] duplicate word definition 'paradise': [paradise].
+W20240424 23:05:13.751061 28652 entry_collector.cc:202] duplicate word definition 'Paula': [Paula].
+W20240424 23:05:13.751061 28652 entry_collector.cc:202] duplicate word definition 'PayPal': [PayPal].
+W20240424 23:05:13.751061 28652 entry_collector.cc:202] duplicate word definition 'PC': [PC].
+W20240424 23:05:13.751061 28652 entry_collector.cc:202] duplicate word definition 'PDF': [PDF].
+W20240424 23:05:13.751061 28652 entry_collector.cc:202] duplicate word definition 'Penny': [Penny].
+W20240424 23:05:13.752038 28652 entry_collector.cc:202] duplicate word definition 'Phillip': [Phillip].
+W20240424 23:05:13.752038 28652 entry_collector.cc:202] duplicate word definition 'Photoshop': [Photoshop].
+W20240424 23:05:13.752038 28652 entry_collector.cc:202] duplicate word definition 'PHP': [PHP].
+W20240424 23:05:13.752038 28652 entry_collector.cc:202] duplicate word definition 'Phyllis': [Phyllis].
+W20240424 23:05:13.753016 28652 entry_collector.cc:202] duplicate word definition 'plugin': [plugin].
+W20240424 23:05:13.753016 28652 entry_collector.cc:202] duplicate word definition 'plugins': [plugins].
+W20240424 23:05:13.753016 28652 entry_collector.cc:202] duplicate word definition 'PNG': [PNG].
+W20240424 23:05:13.753016 28652 entry_collector.cc:202] duplicate word definition 'Poland': [Poland].
+W20240424 23:05:13.753016 28652 entry_collector.cc:202] duplicate word definition 'Pole': [Pole].
+W20240424 23:05:13.753016 28652 entry_collector.cc:202] duplicate word definition 'Polish': [Polish].
+W20240424 23:05:13.753989 28652 entry_collector.cc:202] duplicate word definition 'Portugal': [Portugal].
+W20240424 23:05:13.753989 28652 entry_collector.cc:202] duplicate word definition 'Portuguese': [Portuguese].
+W20240424 23:05:13.753989 28652 entry_collector.cc:202] duplicate word definition 'PowerPoint': [PowerPoint].
+W20240424 23:05:13.753989 28652 entry_collector.cc:202] duplicate word definition 'PPT': [PPT].
+W20240424 23:05:13.753989 28652 entry_collector.cc:202] duplicate word definition 'prefix': [prefix].
+W20240424 23:05:13.754966 28652 entry_collector.cc:202] duplicate word definition 'PS': [PS].
+W20240424 23:05:13.754966 28652 entry_collector.cc:202] duplicate word definition 'QoS': [QoS].
+W20240424 23:05:13.755942 28652 entry_collector.cc:202] duplicate word definition 'Rachel': [Rachel].
+W20240424 23:05:13.755942 28652 entry_collector.cc:202] duplicate word definition 'RAM': [RAM].
+W20240424 23:05:13.755942 28652 entry_collector.cc:202] duplicate word definition 'redirect': [redirect].
+W20240424 23:05:13.758882 28652 entry_collector.cc:202] duplicate word definition 'return': [return].
+W20240424 23:05:13.758882 28652 entry_collector.cc:202] duplicate word definition 'RFT': [RFT].
+W20240424 23:05:13.759846 28652 entry_collector.cc:202] duplicate word definition 'RNA': [RNA].
+W20240424 23:05:13.759846 28652 entry_collector.cc:202] duplicate word definition 'roadmap': [roadmap].
+W20240424 23:05:13.759846 28652 entry_collector.cc:202] duplicate word definition 'Ross': [Ross].
+W20240424 23:05:13.759846 28652 entry_collector.cc:202] duplicate word definition 'RPG': [RPG].
+W20240424 23:05:13.760823 28652 entry_collector.cc:202] duplicate word definition 'RSS': [RSS].
+W20240424 23:05:13.760823 28652 entry_collector.cc:202] duplicate word definition 'Ruby': [Ruby].
+W20240424 23:05:13.760823 28652 entry_collector.cc:202] duplicate word definition 'Russia': [Russia].
+W20240424 23:05:13.760823 28652 entry_collector.cc:202] duplicate word definition 'Russian': [Russian].
+W20240424 23:05:13.760823 28652 entry_collector.cc:202] duplicate word definition 'SATA': [SATA].
+W20240424 23:05:13.760823 28652 entry_collector.cc:202] duplicate word definition 'Saturday': [Saturday].
+W20240424 23:05:13.761799 28652 entry_collector.cc:202] duplicate word definition 'Scotland': [Scotland].
+W20240424 23:05:13.761799 28652 entry_collector.cc:202] duplicate word definition 'Scottish': [Scottish].
+W20240424 23:05:13.761799 28652 entry_collector.cc:202] duplicate word definition 'SDK': [SDK].
+W20240424 23:05:13.761799 28652 entry_collector.cc:202] duplicate word definition 'sensory': [sensory].
+W20240424 23:05:13.761799 28652 entry_collector.cc:202] duplicate word definition 'SEO': [SEO].
+W20240424 23:05:13.762775 28652 entry_collector.cc:202] duplicate word definition 'September': [September].
+W20240424 23:05:13.762775 28652 entry_collector.cc:202] duplicate word definition 'shed': [shed].
+W20240424 23:05:13.762775 28652 entry_collector.cc:202] duplicate word definition 'Sheldon': [Sheldon].
+W20240424 23:05:13.762775 28652 entry_collector.cc:202] duplicate word definition 'shells': [shells].
+W20240424 23:05:13.762775 28652 entry_collector.cc:202] duplicate word definition 'shift': [shift].
+W20240424 23:05:13.762775 28652 entry_collector.cc:202] duplicate word definition 'Shirley': [Shirley].
+W20240424 23:05:13.763751 28652 entry_collector.cc:202] duplicate word definition 'Singapore': [Singapore].
+W20240424 23:05:13.763751 28652 entry_collector.cc:202] duplicate word definition 'sitemap': [sitemap].
+W20240424 23:05:13.763751 28652 entry_collector.cc:202] duplicate word definition 'SMTP': [SMTP].
+W20240424 23:05:13.763751 28652 entry_collector.cc:202] duplicate word definition 'Sony': [Sony].
+W20240424 23:05:13.763751 28652 entry_collector.cc:202] duplicate word definition 'Sophia': [Sophia].
+W20240424 23:05:13.763751 28652 entry_collector.cc:202] duplicate word definition 'SOS': [SOS].
+W20240424 23:05:13.764727 28652 entry_collector.cc:202] duplicate word definition 'SPA': [SPA].
+W20240424 23:05:13.764727 28652 entry_collector.cc:202] duplicate word definition 'space': [space].
+W20240424 23:05:13.764727 28652 entry_collector.cc:202] duplicate word definition 'Spain': [Spain].
+W20240424 23:05:13.764727 28652 entry_collector.cc:202] duplicate word definition 'Spanish': [Spanish].
+W20240424 23:05:13.764727 28652 entry_collector.cc:202] duplicate word definition 'SpongeBob': [SpongeBob].
+W20240424 23:05:13.764727 28652 entry_collector.cc:202] duplicate word definition 'SQL': [SQL].
+W20240424 23:05:13.764727 28652 entry_collector.cc:202] duplicate word definition 'squash': [squash].
+W20240424 23:05:13.765703 28652 entry_collector.cc:202] duplicate word definition 'SSL': [SSL].
+W20240424 23:05:13.765703 28652 entry_collector.cc:202] duplicate word definition 'Starbucks': [Starbucks].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'suffix': [suffix].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'Sunday': [Sunday].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'SUV': [SUV].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'SVG': [SVG].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'SVN': [SVN].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'Sweden': [Sweden].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'Swedish': [Swedish].
+W20240424 23:05:13.767654 28652 entry_collector.cc:202] duplicate word definition 'Swiss': [Swiss].
+W20240424 23:05:13.768630 28652 entry_collector.cc:202] duplicate word definition 'tab': [tab].
+W20240424 23:05:13.768630 28652 entry_collector.cc:202] duplicate word definition 'Taurus': [Taurus].
+W20240424 23:05:13.768630 28652 entry_collector.cc:202] duplicate word definition 'TCP': [TCP].
+W20240424 23:05:13.769606 28652 entry_collector.cc:202] duplicate word definition 'Teresa': [Teresa].
+W20240424 23:05:13.769606 28652 entry_collector.cc:202] duplicate word definition 'Thai': [Thai].
+W20240424 23:05:13.769606 28652 entry_collector.cc:202] duplicate word definition 'Thailand': [Thailand].
+W20240424 23:05:13.769606 28652 entry_collector.cc:202] duplicate word definition 'Theresa': [Theresa].
+W20240424 23:05:13.770582 28652 entry_collector.cc:202] duplicate word definition 'Thursday': [Thursday].
+W20240424 23:05:13.770582 28652 entry_collector.cc:202] duplicate word definition 'timestamp': [timestamp].
+W20240424 23:05:13.770582 28652 entry_collector.cc:202] duplicate word definition 'Tina': [Tina].
+W20240424 23:05:13.770582 28652 entry_collector.cc:202] duplicate word definition 'TLS': [TLS].
+W20240424 23:05:13.770582 28652 entry_collector.cc:202] duplicate word definition 'tokens': [tokens].
+W20240424 23:05:13.770582 28652 entry_collector.cc:202] duplicate word definition 'tracker': [tracker].
+W20240424 23:05:13.771557 28652 entry_collector.cc:202] duplicate word definition 'transformer': [transformer].
+W20240424 23:05:13.771557 28652 entry_collector.cc:202] duplicate word definition 'Tuesday': [Tuesday].
+W20240424 23:05:13.771557 28652 entry_collector.cc:202] duplicate word definition 'turbo': [turbo].
+W20240424 23:05:13.771557 28652 entry_collector.cc:202] duplicate word definition 'TV': [TV].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'Uber': [Uber].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'Ubuntu': [Ubuntu].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'UDP': [UDP].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'UFO': [UFO].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'UI': [UI].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'UID': [UID].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'UK': [UK].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'unacceptable': [unacceptable].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'unbelievable': [unbelievable].
+W20240424 23:05:13.772534 28652 entry_collector.cc:202] duplicate word definition 'uninstall': [uninstall].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'URI': [URI].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'URL': [URL].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'USA': [USA].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'USB': [USB].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'USD': [USD].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'USSR': [USSR].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'UTC': [UTC].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'VCD': [VCD].
+W20240424 23:05:13.773538 28652 entry_collector.cc:202] duplicate word definition 'Venus': [Venus].
+W20240424 23:05:13.774487 28652 entry_collector.cc:202] duplicate word definition 'vivo': [vivo].
+W20240424 23:05:13.774487 28652 entry_collector.cc:202] duplicate word definition 'VLAN': [VLAN].
+W20240424 23:05:13.774487 28652 entry_collector.cc:202] duplicate word definition 'VoIP': [VoIP].
+W20240424 23:05:13.774487 28652 entry_collector.cc:202] duplicate word definition 'VPN': [VPN].
+W20240424 23:05:13.774487 28652 entry_collector.cc:202] duplicate word definition 'Wales': [Wales].
+W20240424 23:05:13.774487 28652 entry_collector.cc:202] duplicate word definition 'Walsh': [Walsh].
+W20240424 23:05:13.775461 28652 entry_collector.cc:202] duplicate word definition 'Wednesday': [Wednesday].
+W20240424 23:05:13.775461 28652 entry_collector.cc:202] duplicate word definition 'well': [well].
+W20240424 23:05:13.775461 28652 entry_collector.cc:202] duplicate word definition 'WiFi': [WiFi].
+W20240424 23:05:13.775461 28652 entry_collector.cc:202] duplicate word definition 'Willie': [Willie].
+W20240424 23:05:13.775461 28652 entry_collector.cc:202] duplicate word definition 'WLAN': [WLAN].
+W20240424 23:05:13.775461 28652 entry_collector.cc:202] duplicate word definition 'WMV': [WMV].
+W20240424 23:05:13.776438 28652 entry_collector.cc:202] duplicate word definition 'WordPress': [WordPress].
+W20240424 23:05:13.776438 28652 entry_collector.cc:202] duplicate word definition 'WTF': [WTF].
+W20240424 23:05:13.776438 28652 entry_collector.cc:202] duplicate word definition 'WWII': [WWII].
+W20240424 23:05:13.776438 28652 entry_collector.cc:202] duplicate word definition 'Xbox': [Xbox].
+W20240424 23:05:13.776438 28652 entry_collector.cc:202] duplicate word definition 'Xeon': [Xeon].
+W20240424 23:05:13.776438 28652 entry_collector.cc:202] duplicate word definition 'XHTML': [XHTML].
+W20240424 23:05:13.776438 28652 entry_collector.cc:202] duplicate word definition 'XML': [XML].
+I20240424 23:05:13.776438 28652 entry_collector.cc:123] Pass 1: total 21334 entries collected.
+I20240424 23:05:13.776438 28652 entry_collector.cc:124] num unique syllables: 21022
+I20240424 23:05:13.776438 28652 entry_collector.cc:125] num of entries to encode: 0
+I20240424 23:05:13.776438 28652 entry_collector.cc:137] Pass 2: total 21334 entries collected.
+I20240424 23:05:13.783327 28652 entry_collector.cc:152] Pass 3: total 21334 entries collected.
+I20240424 23:05:13.808645 28652 table.cc:322] building table.
+I20240424 23:05:13.809623 28652 table.cc:323] num syllables: 21022
+I20240424 23:05:13.809623 28652 table.cc:324] num entries: 21334
+I20240424 23:05:13.809623 28652 table.cc:325] estimated file size: 2042176
+I20240424 23:05:13.809623 28652 mapped_file.cc:59] creating file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"'.
+I20240424 23:05:13.810611 28652 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:05:13.810611 28652 table.cc:331] creating metadata.
+I20240424 23:05:13.810611 28652 table.cc:345] creating syllabary.
+I20240424 23:05:13.812549 28652 table.cc:358] creating table index.
+I20240424 23:05:13.831094 28652 table.cc:300] saving table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:05:13.831094 28652 mapped_file.cc:118] shrinking file to fit data size. capacity: 2042176
+I20240424 23:05:13.831094 28652 mapped_file.cc:129] resize file to: 577404
+I20240424 23:05:13.833046 28652 reverse_lookup_dictionary.cc:89] building reversedb...
+I20240424 23:05:13.869158 28652 mapped_file.cc:56] overwriting file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.reverse.bin"'.
+I20240424 23:05:13.869158 28652 mapped_file.cc:129] resize file to: 221868
+I20240424 23:05:13.869158 28652 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:05:13.875990 28652 reverse_lookup_dictionary.cc:197] saving reverse file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.reverse.bin"
+I20240424 23:05:13.875990 28652 mapped_file.cc:118] shrinking file to fit data size. capacity: 221868
+I20240424 23:05:13.875990 28652 mapped_file.cc:129] resize file to: 220908
+I20240424 23:05:13.880872 28652 dict_compiler.cc:278] building prism...
+I20240424 23:05:13.880872 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.table.bin"
+I20240424 23:05:13.894534 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:05:20.816197 28652 mapped_file.cc:59] creating file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.prism.bin"'.
+I20240424 23:05:20.817134 28652 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:05:20.885489 28652 prism.cc:117] saving prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.prism.bin"
+I20240424 23:05:20.885489 28652 mapped_file.cc:118] shrinking file to fit data size. capacity: 10623816
+I20240424 23:05:20.885489 28652 mapped_file.cc:129] resize file to: 6979120
+I20240424 23:05:20.915712 28652 deployment_tasks.cc:377] dictionary 'melt_eng' is ready.
+I20240424 23:05:20.916688 28652 deployment_tasks.cc:197] schema: radical_pinyin
+I20240424 23:05:20.916688 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.schema.yaml"'.
+I20240424 23:05:20.918640 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:05:20.920591 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"'.
+I20240424 23:05:20.922578 28652 deployment_tasks.cc:360] preparing dictionary 'radical_pinyin'.
+I20240424 23:05:20.923519 28652 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml"
+I20240424 23:05:20.931329 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.table.bin"
+I20240424 23:05:20.932302 28652 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.prism.bin"
+I20240424 23:05:20.933279 28652 prism.cc:106] found double array image of size 105728.
+I20240424 23:05:20.933279 28652 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\radical_pinyin.dict.yaml"[1 file(s)] (2800115411)
+I20240424 23:05:20.933279 28652 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.schema.yaml" (1782276972)
+I20240424 23:05:20.934255 28652 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\radical_pinyin.reverse.bin"
+I20240424 23:05:20.937183 28652 deployment_tasks.cc:377] dictionary 'radical_pinyin' is ready.
+I20240424 23:05:20.938159 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\melt_eng.schema.yaml"'.
+I20240424 23:05:20.945026 28652 deployment_tasks.cc:197] schema: double_pinyin_flypy
+I20240424 23:05:20.945026 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:05:20.948932 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:05:20.963613 28652 deployment_tasks.cc:421] source file changed: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.schema.yaml"
+I20240424 23:05:20.964548 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:05:20.967440 28652 auto_patch_config_plugin.cc:29] auto-patch double_pinyin_flypy.schema:/__patch: double_pinyin_flypy.custom:/patch?
+I20240424 23:05:20.967440 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.yaml"'.
+I20240424 23:05:20.970367 28652 auto_patch_config_plugin.cc:29] auto-patch default:/__patch: default.custom:/patch?
+I20240424 23:05:20.970367 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\default.custom.yaml"'.
+I20240424 23:05:20.970367 28652 config_compiler.cc:214] patching menu/page_size
+I20240424 23:05:20.970367 28652 config_compiler.cc:214] patching schema_list
+I20240424 23:05:20.970367 28652 config_compiler.cc:537] resolved: Patch(default.custom:patch <optional>)
+I20240424 23:05:20.970367 28652 config_compiler.cc:537] resolved: Include(default:/punctuator/full_shape)
+I20240424 23:05:20.970367 28652 config_compiler.cc:537] resolved: PendingChild(double_pinyin_flypy.schema:/punctuator/full_shape)
+I20240424 23:05:20.970367 28652 config_compiler.cc:537] resolved: Include(default:/punctuator/half_shape)
+I20240424 23:05:20.970367 28652 config_compiler.cc:537] resolved: PendingChild(double_pinyin_flypy.schema:/punctuator/half_shape)
+I20240424 23:05:20.970367 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\symbols_caps_v.yaml"'.
+I20240424 23:05:20.988986 28652 auto_patch_config_plugin.cc:29] auto-patch symbols_caps_v:/__patch: symbols_caps_v.custom:/patch?
+W20240424 23:05:20.988986 28652 config_data.cc:65] nonexistent config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\symbols_caps_v.custom.yaml"'.
+I20240424 23:05:20.988986 28652 config_compiler.cc:426] optional resource not loaded: symbols_caps_v.custom
+I20240424 23:05:20.988986 28652 config_compiler.cc:537] resolved: Patch(symbols_caps_v.custom:patch <optional>)
+I20240424 23:05:20.988986 28652 config_compiler.cc:537] resolved: Include(symbols_caps_v:/symbols)
+I20240424 23:05:20.988986 28652 config_compiler.cc:537] resolved: PendingChild(double_pinyin_flypy.schema:/punctuator/symbols)
+I20240424 23:05:20.988986 28652 config_compiler.cc:537] resolved: PendingChild(double_pinyin_flypy.schema:/punctuator)
+W20240424 23:05:20.988986 28652 config_data.cc:65] nonexistent config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\double_pinyin_flypy.custom.yaml"'.
+I20240424 23:05:20.988986 28652 config_compiler.cc:426] optional resource not loaded: double_pinyin_flypy.custom
+I20240424 23:05:20.988986 28652 config_compiler.cc:537] resolved: Patch(double_pinyin_flypy.custom:patch <optional>)
+I20240424 23:05:20.988986 28652 legacy_preset_config_plugin.cc:26] interpreting key_binder/import_preset: default
+I20240424 23:05:20.988986 28652 legacy_preset_config_plugin.cc:65] interpreting recognizer/import_preset: default
+I20240424 23:05:20.988986 28652 build_info_plugin.cc:27] resource 'double_pinyin_flypy.custom' not loaded.
+I20240424 23:05:20.988986 28652 build_info_plugin.cc:27] resource 'symbols_caps_v.custom' not loaded.
+I20240424 23:05:20.988986 28652 config_data.cc:87] saving config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:05:20.994805 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:05:21.010385 28652 deployment_tasks.cc:360] preparing dictionary 'rime_ice'.
+I20240424 23:05:21.011360 28652 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"
+I20240424 23:05:21.496412 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:05:21.506137 28652 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.prism.bin"
+I20240424 23:05:21.515776 28652 prism.cc:106] found double array image of size 1024.
+I20240424 23:05:21.515776 28652 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\rime_ice.dict.yaml"[6 file(s)] (1756480289)
+I20240424 23:05:21.515776 28652 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml" (3672580493)
+I20240424 23:05:21.515776 28652 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.reverse.bin"
+I20240424 23:05:21.516279 28652 dict_compiler.cc:278] building prism...
+I20240424 23:05:21.516279 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\rime_ice.table.bin"
+I20240424 23:05:21.527992 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:05:21.554347 28652 mapped_file.cc:59] creating file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.prism.bin"'.
+I20240424 23:05:21.555321 28652 mapped_file.cc:70] opening file for read/write access.
+I20240424 23:05:21.555321 28652 prism.cc:117] saving prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.prism.bin"
+I20240424 23:05:21.555321 28652 mapped_file.cc:118] shrinking file to fit data size. capacity: 24820
+I20240424 23:05:21.555321 28652 mapped_file.cc:129] resize file to: 15160
+I20240424 23:05:21.555321 28652 deployment_tasks.cc:377] dictionary 'rime_ice' is ready.
+I20240424 23:05:21.558249 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\double_pinyin_flypy.schema.yaml"'.
+I20240424 23:05:21.572890 28652 deployment_tasks.cc:197] schema: japanese
+I20240424 23:05:21.572890 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.schema.yaml"'.
+I20240424 23:05:21.575819 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:05:21.579752 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:05:21.582851 28652 deployment_tasks.cc:360] preparing dictionary 'japanese'.
+I20240424 23:05:21.583654 28652 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"
+I20240424 23:05:21.943770 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.table.bin"
+I20240424 23:05:21.966218 28652 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.prism.bin"
+I20240424 23:05:21.967195 28652 prism.cc:106] found double array image of size 6211584.
+I20240424 23:05:21.967195 28652 dict_compiler.cc:126] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\japanese.dict.yaml"[4 file(s)] (409383324)
+I20240424 23:05:21.967195 28652 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml" (87333066)
+I20240424 23:05:21.967195 28652 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.reverse.bin"
+I20240424 23:05:21.994522 28652 deployment_tasks.cc:377] dictionary 'japanese' is ready.
+I20240424 23:05:21.995544 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\japanese.schema.yaml"'.
+I20240424 23:05:21.998461 28652 deployment_tasks.cc:197] schema: terra_pinyin.extended
+W20240424 23:05:21.999401 28652 deployment_tasks.cc:207] missing input schema; skipped unsatisfied dependency: terra_pinyin.extended
+I20240424 23:05:21.999401 28652 deployment_tasks.cc:197] schema: stroke
+I20240424 23:05:21.999401 28652 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.schema.yaml"'.
+I20240424 23:05:22.001355 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:05:22.004290 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"'.
+I20240424 23:05:22.006270 28652 deployment_tasks.cc:360] preparing dictionary 'stroke'.
+I20240424 23:05:22.007246 28652 dict_compiler.cc:81] compiling dictionary for "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml"
+I20240424 23:05:22.072646 28652 table.cc:254] loading table file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.table.bin"
+I20240424 23:05:22.076542 28652 prism.cc:76] loading prism file: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.prism.bin"
+I20240424 23:05:22.076542 28652 prism.cc:106] found double array image of size 582400.
+I20240424 23:05:22.076542 28652 dict_compiler.cc:126] "C:\\Program Files\\Rime\\weasel-0.15.1\\data\\stroke.dict.yaml"[1 file(s)] (3701611552)
+I20240424 23:05:22.076542 28652 dict_compiler.cc:128] "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.schema.yaml" (3809745346)
+I20240424 23:05:22.076542 28652 reverse_lookup_dictionary.cc:33] loading reversedb: "C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\stroke.reverse.bin"
+I20240424 23:05:22.080410 28652 deployment_tasks.cc:377] dictionary 'stroke' is ready.
+I20240424 23:05:22.080410 28652 deployment_tasks.cc:245] finished updating schemas: 6 success, 0 failure.
+I20240424 23:05:22.080410 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:05:22.080410 28652 config_data.cc:197] write: var/last_build_time
+I20240424 23:05:22.080410 28652 config_data.cc:87] saving config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\user.yaml"'.
+I20240424 23:05:22.081419 28652 deployment_tasks.cc:583] clean up trash.
+I20240424 23:05:22.083367 28652 config_data.cc:68] loading config file '"C:\\Program Files\\Rime\\weasel-0.15.1\\data\\weasel.yaml"'.
+I20240424 23:05:22.089195 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\weasel.yaml"'.
+I20240424 23:05:22.095089 28652 config_data.cc:68] loading config file '"C:\\Users\\huaxinghan\\AppData\\Roaming\\Rime\\build\\weasel.yaml"'.
