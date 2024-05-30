@@ -1,0 +1,102 @@
+https://lolitalibrary.com/maomao/#
+Mr.Cheney
+# wood代表木材，整行是木材100个
+gamePage.resPool.get("wood").value = 100
+- `temporalFlux`: 时间流量，表示某种时间流动的资源。
+- `relic`: 遗迹，可能是指某个历史时期遗留下来的珍贵物品或技术。
+- `antimatter`: 反物质，一种具有强大能量的物质，通常用于能源和核能研究。
+- `catnip`: 猫薄荷，一种植物，可能与游戏角色有关。
+- `mint`: 薄荷，一种植物，可能与游戏角色有关。
+- `wood`: 木材，一种常见的建筑材料。
+- `minerals`: 矿物，可能是指游戏中的矿石资源。
+- `coal`: 煤炭，一种燃料资源。
+- `iron`: 铁，一种金属资源。
+- `gold`: 黄金，一种贵重的金属资源。
+- `science`: 科学，可能是指游戏中的科技资源。
+- `culture`: 文化，可能是指游戏中的文化资源。
+- `faith`: 信仰，可能是指游戏中的信仰资源。
+- `furs`: 毛皮，一种动物资源。
+- `ivory`: 象牙，一种珍贵的动物资源。
+- `spice`: 香料，一种用于烹饪的调味料。
+- `unicorns`: 独角兽，一种传说中的神奇生物。
+- `paragon`: 圣殿，可能是指游戏中的神圣建筑。
+- `beam`: 光束，一种强大的能量源。
+- `slab`: 石板，一种常见的建筑材料。
+- `plate`: 板片，一种常见的建筑材料。
+- `steel`: 钢铁，一种常见的金属材料。
+- `scaffold`: 脚手架，一种用于搭建建筑的工具。
+- `parchment`: 羊皮纸，一种用于书写的纸张。
+- `manuscript`: 手稿，一种记录文字的文件。
+- `compedium`: 百科全书，一种收集知识的书籍。
+- `blueprint`: 蓝图，一种设计图纸。
+- `tears`: 眼泪，一种情感表达的方式。
+- `starchart`: 星图，一种显示天空中星星位置的图表。
+- `titanium`: 钛，一种高强度的合金材料。
+- `oil`: 石油，一种常见的能源资源。
+- `uranium`: 铀，一种放射性元素，常用于核能研究。
+- `alloy`: 合金，一种混合了两种或多种金属的材料。
+- `rocket`: 火箭，一种用于发射的装置。
+- `unobtainium`: 难得素，一种无法通过正常途径获得的稀有物品。
+- `timeCrystal`: 时间水晶，一种可以影响时间的神秘物体。
+- `kerosene`: 煤油
+- `void` : 虚空
+- `relic`: 遗物
+- `paragon`: 领导力
+猫薄荷 catnip
+木材 wood
+矿物 minerals
+煤炭 coal
+铁锭 iron
+钛锭 titanium
+黄金 gold
+石油 oil
+铀 uanium
+难得素 unobainium
+喵力 manpower
+科研点 science
+文化点 culture
+信仰 faith
+喵星人 kittens
+斑马 zebras
+星图 starchart
+火箭 rocket
+时间通量 temporalFlux
+浮点运算能力 gflops
+哈希 hashrates
+皮革 furs
+象牙 ivory
+香料 spice
+独角兽 unicorns
+空角兽 alicorn
+眼泪 tears
+业力(貌似无法调整) karma
+领导力 paragon
+燃烧领导力 burnedParagon
+时光水晶 timeCrystal
+悲伤 sorrow
+礼盒 elderBox
+包装纸 wrappingPaper
+黑币 blackcoin
+横梁 beam
+石板 slab
+混凝土 concrate
+金属板 plate
+钢铁 steel
+合金 alloy
+齿轮 gear
+脚手架 scaffold
+船 ship
+油轮 tanker
+煤油 kerosene
+手稿 manuspan
+羊皮纸 parchment
+摘要 compedium
+蓝图 blueprint
+钍 thorium
+巨石 megalith
+死灵兽 necrocorn
+E合金 eludium
+虚空 void
+圣遗物 relic
+反物质 antimatter
+
